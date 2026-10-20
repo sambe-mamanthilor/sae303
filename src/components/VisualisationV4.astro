@@ -37,6 +37,7 @@ const lastYear = Math.max(...years);
     </div>
   </div>
   <div id="graphique-v4" aria-live="polite"></div>
+  <p id="resume-v4" class="rounded-xl bg-amber-50 p-4 font-medium leading-relaxed text-slate-800 dark:bg-slate-800 dark:text-slate-100" aria-live="polite"></p>
 </div>
 
 <script>
@@ -46,6 +47,7 @@ const lastYear = Math.max(...years);
   const yearInput = document.querySelector("#annee-v4-number") as HTMLInputElement;
   const yearRange = document.querySelector("#annee-v4-range") as HTMLInputElement;
   const container = document.querySelector("#graphique-v4") as HTMLDivElement;
+  const summary = document.querySelector("#resume-v4") as HTMLParagraphElement;
   const abbreviations = ["Jan", "Fév", "Mar", "Avr", "Mai", "Jui", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
 
   function graphiqueV4(donnees: typeof data, annee: number) {
@@ -82,9 +84,15 @@ const lastYear = Math.max(...years);
 
   function renderPlot(year: number) {
     const selectedData = data.filter((d) => d.annee === year);
+    const hotterMonths = selectedData.filter((d) => d.ecart > 0).length;
+    const strongestDifference = selectedData.reduce((strongest, current) =>
+      Math.abs(current.ecart) > Math.abs(strongest.ecart) ? current : strongest,
+    );
+    const formattedDifference = `${strongestDifference.ecart > 0 ? "+" : ""}${strongestDifference.ecart.toFixed(1).replace(".", ",")} °C`;
     yearInput.value = String(year);
     yearRange.value = String(year);
     container.replaceChildren(graphiqueV4(selectedData, year));
+    summary.textContent = `En ${year}, ${hotterMonths} mois sur 12 dépassent leur référence 1961–1990. L’écart le plus important est observé en ${strongestDifference.nomMois.toLowerCase()} : ${formattedDifference}.`;
   }
 
   yearRange.addEventListener("input", () => renderPlot(Number(yearRange.value)));
