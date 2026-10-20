@@ -1,9 +1,9 @@
-- URL site WEB :
-- URL Notebook Observable :
-- Nom :
-- Prénom :
-- Nom binome :
-- Prénom binome :
+- URL site WEB : http://sae303-groupe5.maman-sambe.fr/
+- URL Notebook Observable : https://observablehq.com/@mmi-montbeliard/sae-303-gr-05
+- Nom : Sambe
+- Prénom : Maman Thilor
+- Nom binome : Budniak
+- Prénom binome : Ruslana
 
 # Remarques :
 
