@@ -23,6 +23,12 @@ import dataV5 from "../assets/data/v5-dorans.json";
         <p class="mt-7 max-w-3xl text-lg leading-relaxed text-slate-700 dark:text-slate-200 sm:text-xl">
           Températures maximales, saisons et précipitations : ce que révèlent plus de soixante ans de mesures autour du Pays de Montbéliard.
         </p>
+        <p class="mt-4 text-sm font-semibold text-slate-600 dark:text-slate-300">
+          Par Ruslana Budniak et Mamanthilor Sambe · SAÉ 303
+        </p>
+        <p class="mt-8 max-w-3xl rounded-2xl border border-teal-200 bg-white/70 p-5 leading-relaxed text-slate-800 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-100">
+          Entre 1961–1990 et 1991–2020, la température maximale moyenne a augmenté d’environ 1,4 °C à AERO-MTBL. Durant la période récente, 28 années sur 30 dépassent la moyenne de référence, contre seulement 13 auparavant. Mais ce réchauffement est-il identique partout, à toutes les saisons et tous les mois ?
+        </p>
         <a
           href="#contexte"
           class="mt-9 inline-flex rounded-lg bg-teal-700 px-5 py-3 font-semibold text-white transition hover:bg-teal-800 dark:bg-teal-300 dark:text-slate-950 dark:hover:bg-teal-200"
@@ -42,12 +48,15 @@ import dataV5 from "../assets/data/v5-dorans.json";
           <p class="mt-5 leading-relaxed text-slate-700 dark:text-slate-300">
             AERO-MTBL constitue notre point d’observation local. Pour éviter de confondre une année exceptionnelle avec une tendance durable, nous comparons 1961–1990 à 1991–2020.
           </p>
+          <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-300">
+            Nous étudions la TX, c’est-à-dire la moyenne des températures maximales relevées au cours de la journée. Pour chaque année, les douze moyennes mensuelles sont réunies en tenant compte du nombre de jours de chaque mois. Il ne s’agit donc ni du record absolu de l’année ni de la température moyenne jour et nuit.
+          </p>
         </div>
         <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-7">
           <VisualisationV1 data={dataV1} />
         </div>
         <p class="mt-5 max-w-4xl border-l-4 border-teal-600 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
-          À retenir : la distribution récente se déplace vers les températures les plus élevées. Les années chaudes, auparavant rares, deviennent beaucoup plus fréquentes après 1990.
+          À retenir : le changement ne repose pas sur quelques années exceptionnelles. Entre 1991 et 2020, 28 années sur 30 dépassent la moyenne de référence 1961–1990, contre 13 sur 30 auparavant.
         </p>
       </div>
     </section>
@@ -80,7 +89,7 @@ import dataV5 from "../assets/data/v5-dorans.json";
           Derrière la tendance, chaque année possède sa propre signature
         </h2>
         <p class="mt-5 max-w-3xl leading-relaxed text-slate-700 dark:text-slate-300">
-          En choisissant une année, le lecteur peut observer quels mois ont été plus chauds ou plus froids que la référence 1961–1990.
+          Une tendance de long terme n’efface pas la variabilité. Choisissez une année pour reconstituer sa « signature » mois par mois et observer les écarts à la référence 1961–1990.
         </p>
         <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-7">
           <VisualisationV4 />
@@ -91,14 +100,17 @@ import dataV5 from "../assets/data/v5-dorans.json";
       </div>
     </section>
 
-    <section id="conclusion" class="scroll-mt-6 border-y border-slate-200 bg-white py-20 dark:border-slate-700 dark:bg-slate-900">
+    <section id="ouverture" class="scroll-mt-6 border-y border-slate-200 bg-white py-20 dark:border-slate-700 dark:bg-slate-900">
       <div class="mx-auto max-w-6xl px-5">
-        <p class="text-sm font-bold uppercase tracking-wider text-sky-800">04 · Conclusion</p>
+        <p class="text-sm font-bold uppercase tracking-wider text-sky-800 dark:text-sky-300">04 · Ouverture</p>
         <h2 class="mt-3 max-w-4xl text-3xl font-bold sm:text-4xl">
-          À Dorans, plus chaud ne signifie pas automatiquement moins pluvieux
+          Chaleur et précipitations évoluent-elles ensemble ?
         </h2>
         <p class="mt-5 max-w-3xl leading-relaxed text-slate-700 dark:text-slate-300">
           La température maximale augmente nettement, tandis que les précipitations restent très variables. Leur faible corrélation annuelle ne permet pas de conclure à une relation causale.
+        </p>
+        <p class="mt-4 max-w-3xl leading-relaxed text-slate-700 dark:text-slate-300">
+          Une anomalie indique l’écart par rapport à la moyenne 1961–1990 : une valeur positive se situe au-dessus de cette référence, une valeur négative en dessous. Les lignes épaisses représentent une moyenne mobile sur dix ans, utilisée pour rendre la tendance plus lisible malgré les fortes variations annuelles.
         </p>
         <div class="mt-10 rounded-2xl border border-slate-200 bg-stone-50 p-4 shadow-sm dark:border-slate-700 dark:bg-slate-950 sm:p-7">
           <VisualisationV5 data={dataV5} />
@@ -106,6 +118,17 @@ import dataV5 from "../assets/data/v5-dorans.json";
         <p class="mt-5 max-w-4xl border-l-4 border-sky-700 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
           À retenir : la hausse des températures est nette, mais les précipitations restent très irrégulières. Ces deux évolutions ne permettent pas, à elles seules, d’établir un lien de causalité.
         </p>
+      </div>
+    </section>
+
+    <section id="conclusion" class="scroll-mt-6 bg-teal-50 py-20 dark:bg-slate-950">
+      <div class="mx-auto max-w-4xl px-5">
+        <p class="text-sm font-bold uppercase tracking-wider text-teal-800 dark:text-teal-300">Conclusion</p>
+        <h2 class="mt-3 text-3xl font-bold sm:text-4xl">Alors, les années chaudes sont-elles devenues la norme ?</h2>
+        <div class="mt-6 space-y-4 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+          <p>Oui, si l’on prend la période 1961–1990 comme référence. À AERO-MTBL, 28 des 30 années de 1991–2020 dépassent désormais cette ancienne moyenne. Une année autrefois considérée comme chaude est devenue beaucoup plus courante.</p>
+          <p>Cette évolution ne signifie toutefois pas que chaque mois est systématiquement plus chaud, ni que la hausse des températures entraîne automatiquement une baisse des précipitations. Elle décrit un déplacement durable de la référence climatique, malgré une variabilité toujours visible d’un mois et d’une année à l’autre.</p>
+        </div>
       </div>
     </section>
 
