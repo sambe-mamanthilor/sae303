@@ -1,0 +1,66 @@
+---
+import * as Plot from "@observablehq/plot";
+import PlotFigure from "./PlotFigure.astro";
+
+interface Row {
+  annee: number;
+  anomalieTX: number;
+  anomalieRR: number;
+  anomalieTX10: number | null;
+  anomalieRR10: number | null;
+}
+
+interface Props {
+  data: Row[];
+}
+
+const { data } = Astro.props;
+const smoothed = data.filter((d) => d.anomalieTX10 !== null && d.anomalieRR10 !== null);
+
+function graphiqueTemperature(donnees: Row[]) {
+  return {
+    width: 800,
+    height: 250,
+    marginLeft: 70,
+    marginRight: 25,
+    marginBottom: 45,
+    title: "Température maximale (TX)",
+    subtitle: "Anomalies annuelles et moyenne mobile sur dix ans.",
+    ariaLabel: "Évolution des anomalies de température maximale à Dorans entre 1959 et 2018.",
+    x: { label: null, domain: [1959, 2018] },
+    y: { label: "Anomalie (°C)", grid: true },
+    marks: [
+      Plot.ruleY([0], { stroke: "#334155" }),
+      Plot.dot(donnees, { x: "annee", y: "anomalieTX", r: 2.5, fill: "#e45756", opacity: 0.35, tip: true }),
+      Plot.lineY(smoothed, { x: "annee", y: "anomalieTX10", stroke: "#c43c39", strokeWidth: 3, tip: true }),
+    ],
+  };
+}
+
+function graphiquePluie(donnees: Row[]) {
+  return {
+    width: 800,
+    height: 270,
+    marginLeft: 70,
+    marginRight: 25,
+    marginBottom: 50,
+    title: "Précipitations (RR)",
+    subtitle: "Les précipitations restent très variables malgré la hausse de la température.",
+    caption:
+      "Source : Météo-France, LSH, station Dorans. Référence 1961–1990. Les deux indicateurs utilisent des échelles séparées.",
+    ariaLabel: "Évolution des anomalies de précipitations à Dorans entre 1959 et 2018.",
+    x: { label: "Année", domain: [1959, 2018] },
+    y: { label: "Anomalie (mm/an)", grid: true },
+    marks: [
+      Plot.ruleY([0], { stroke: "#334155" }),
+      Plot.dot(donnees, { x: "annee", y: "anomalieRR", r: 2.5, fill: "#3b82a0", opacity: 0.35, tip: true }),
+      Plot.lineY(smoothed, { x: "annee", y: "anomalieRR10", stroke: "#236782", strokeWidth: 3, tip: true }),
+    ],
+  };
+}
+---
+
+<div class="space-y-3">
+  <PlotFigure options={graphiqueTemperature(data)} />
+  <PlotFigure options={graphiquePluie(data)} />
+</div>

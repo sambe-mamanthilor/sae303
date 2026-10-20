@@ -1,0 +1,422 @@
+[
+  {
+    "annee": 1961,
+    "periode": "1961–1990",
+    "txMoyenne": 15.5,
+    "ecartReference": 1.34,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1962,
+    "periode": "1961–1990",
+    "txMoyenne": 13.58,
+    "ecartReference": -0.58,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1963,
+    "periode": "1961–1990",
+    "txMoyenne": 13.24,
+    "ecartReference": -0.93,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1964,
+    "periode": "1961–1990",
+    "txMoyenne": 14.57,
+    "ecartReference": 0.4,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1965,
+    "periode": "1961–1990",
+    "txMoyenne": 13.4,
+    "ecartReference": -0.77,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1966,
+    "periode": "1961–1990",
+    "txMoyenne": 14.23,
+    "ecartReference": 0.07,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1967,
+    "periode": "1961–1990",
+    "txMoyenne": 14.72,
+    "ecartReference": 0.56,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1968,
+    "periode": "1961–1990",
+    "txMoyenne": 13.88,
+    "ecartReference": -0.28,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1969,
+    "periode": "1961–1990",
+    "txMoyenne": 13.75,
+    "ecartReference": -0.41,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1970,
+    "periode": "1961–1990",
+    "txMoyenne": 13.7,
+    "ecartReference": -0.46,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1971,
+    "periode": "1961–1990",
+    "txMoyenne": 14.77,
+    "ecartReference": 0.6,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1972,
+    "periode": "1961–1990",
+    "txMoyenne": 13.74,
+    "ecartReference": -0.43,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1973,
+    "periode": "1961–1990",
+    "txMoyenne": 13.84,
+    "ecartReference": -0.32,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1974,
+    "periode": "1961–1990",
+    "txMoyenne": 14.43,
+    "ecartReference": 0.27,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1975,
+    "periode": "1961–1990",
+    "txMoyenne": 14.1,
+    "ecartReference": -0.06,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1976,
+    "periode": "1961–1990",
+    "txMoyenne": 14.7,
+    "ecartReference": 0.53,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1977,
+    "periode": "1961–1990",
+    "txMoyenne": 14.29,
+    "ecartReference": 0.12,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1978,
+    "periode": "1961–1990",
+    "txMoyenne": 13.35,
+    "ecartReference": -0.82,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1979,
+    "periode": "1961–1990",
+    "txMoyenne": 13.9,
+    "ecartReference": -0.26,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1980,
+    "periode": "1961–1990",
+    "txMoyenne": 13.19,
+    "ecartReference": -0.97,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1981,
+    "periode": "1961–1990",
+    "txMoyenne": 13.8,
+    "ecartReference": -0.36,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1982,
+    "periode": "1961–1990",
+    "txMoyenne": 14.62,
+    "ecartReference": 0.46,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1983,
+    "periode": "1961–1990",
+    "txMoyenne": 14.72,
+    "ecartReference": 0.56,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1984,
+    "periode": "1961–1990",
+    "txMoyenne": 13.64,
+    "ecartReference": -0.52,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1985,
+    "periode": "1961–1990",
+    "txMoyenne": 13.57,
+    "ecartReference": -0.59,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1986,
+    "periode": "1961–1990",
+    "txMoyenne": 13.88,
+    "ecartReference": -0.29,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1987,
+    "periode": "1961–1990",
+    "txMoyenne": 13.35,
+    "ecartReference": -0.82,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1988,
+    "periode": "1961–1990",
+    "txMoyenne": 14.95,
+    "ecartReference": 0.79,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1989,
+    "periode": "1961–1990",
+    "txMoyenne": 15.86,
+    "ecartReference": 1.69,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1990,
+    "periode": "1961–1990",
+    "txMoyenne": 15.66,
+    "ecartReference": 1.5,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1991,
+    "periode": "1991–2020",
+    "txMoyenne": 14.62,
+    "ecartReference": 0.45,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1992,
+    "periode": "1991–2020",
+    "txMoyenne": 14.8,
+    "ecartReference": 0.64,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1993,
+    "periode": "1991–2020",
+    "txMoyenne": 14.31,
+    "ecartReference": 0.15,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1994,
+    "periode": "1991–2020",
+    "txMoyenne": 15.82,
+    "ecartReference": 1.65,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1995,
+    "periode": "1991–2020",
+    "txMoyenne": 14.95,
+    "ecartReference": 0.78,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1996,
+    "periode": "1991–2020",
+    "txMoyenne": 13.49,
+    "ecartReference": -0.68,
+    "auDessusReference": false
+  },
+  {
+    "annee": 1997,
+    "periode": "1991–2020",
+    "txMoyenne": 15.41,
+    "ecartReference": 1.24,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1998,
+    "periode": "1991–2020",
+    "txMoyenne": 15.27,
+    "ecartReference": 1.1,
+    "auDessusReference": true
+  },
+  {
+    "annee": 1999,
+    "periode": "1991–2020",
+    "txMoyenne": 15.1,
+    "ecartReference": 0.94,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2000,
+    "periode": "1991–2020",
+    "txMoyenne": 15.95,
+    "ecartReference": 1.79,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2001,
+    "periode": "1991–2020",
+    "txMoyenne": 15.05,
+    "ecartReference": 0.88,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2002,
+    "periode": "1991–2020",
+    "txMoyenne": 15.65,
+    "ecartReference": 1.48,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2003,
+    "periode": "1991–2020",
+    "txMoyenne": 16.9,
+    "ecartReference": 2.73,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2004,
+    "periode": "1991–2020",
+    "txMoyenne": 14.89,
+    "ecartReference": 0.73,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2005,
+    "periode": "1991–2020",
+    "txMoyenne": 15.24,
+    "ecartReference": 1.07,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2006,
+    "periode": "1991–2020",
+    "txMoyenne": 15.76,
+    "ecartReference": 1.59,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2007,
+    "periode": "1991–2020",
+    "txMoyenne": 15.95,
+    "ecartReference": 1.78,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2008,
+    "periode": "1991–2020",
+    "txMoyenne": 14.97,
+    "ecartReference": 0.81,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2009,
+    "periode": "1991–2020",
+    "txMoyenne": 15.89,
+    "ecartReference": 1.72,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2010,
+    "periode": "1991–2020",
+    "txMoyenne": 14.08,
+    "ecartReference": -0.09,
+    "auDessusReference": false
+  },
+  {
+    "annee": 2011,
+    "periode": "1991–2020",
+    "txMoyenne": 16.61,
+    "ecartReference": 2.45,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2012,
+    "periode": "1991–2020",
+    "txMoyenne": 15.38,
+    "ecartReference": 1.22,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2013,
+    "periode": "1991–2020",
+    "txMoyenne": 14.45,
+    "ecartReference": 0.29,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2014,
+    "periode": "1991–2020",
+    "txMoyenne": 16.64,
+    "ecartReference": 2.47,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2015,
+    "periode": "1991–2020",
+    "txMoyenne": 16.85,
+    "ecartReference": 2.69,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2016,
+    "periode": "1991–2020",
+    "txMoyenne": 15.44,
+    "ecartReference": 1.28,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2017,
+    "periode": "1991–2020",
+    "txMoyenne": 16.27,
+    "ecartReference": 2.1,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2018,
+    "periode": "1991–2020",
+    "txMoyenne": 17.27,
+    "ecartReference": 3.1,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2019,
+    "periode": "1991–2020",
+    "txMoyenne": 16.8,
+    "ecartReference": 2.63,
+    "auDessusReference": true
+  },
+  {
+    "annee": 2020,
+    "periode": "1991–2020",
+    "txMoyenne": 17.51,
+    "ecartReference": 3.34,
+    "auDessusReference": true
+  }
+]

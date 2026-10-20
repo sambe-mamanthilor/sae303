@@ -1,0 +1,67 @@
+---
+import data from "../assets/data/v4-mois.json";
+
+const years = [...new Set(data.map((d) => d.annee))];
+---
+
+<div class="space-y-5">
+  <label for="annee-v4" class="block font-semibold text-slate-800">
+    Choisissez une année
+  </label>
+  <select
+    id="annee-v4"
+    class="rounded-lg border border-slate-300 bg-white px-4 py-2 text-slate-900"
+  >
+    {years.map((year) => <option value={year} selected={year === 2022}>{year}</option>)}
+  </select>
+  <div id="graphique-v4" aria-live="polite"></div>
+</div>
+
+<script>
+  import * as Plot from "@observablehq/plot";
+  import data from "../assets/data/v4-mois.json";
+
+  const selectYear = document.querySelector("#annee-v4") as HTMLSelectElement;
+  const container = document.querySelector("#graphique-v4") as HTMLDivElement;
+  const abbreviations = ["Jan", "Fév", "Mar", "Avr", "Mai", "Jui", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
+
+  function graphiqueV4(donnees: typeof data, annee: number) {
+    return Plot.plot({
+      width: Math.min(container.clientWidth || 800, 800),
+      height: 420,
+      marginLeft: 65,
+      marginBottom: 55,
+      title: `Écart mensuel à la référence 1961–1990 à AERO-MTBL en ${annee}`,
+      subtitle:
+        "Rouge : mois plus chaud que la référence mensuelle. Bleu : mois plus froid.",
+      caption:
+        "Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL, données Q_HOM = 1.",
+      ariaLabel: `Graphique des écarts mensuels de température maximale à AERO-MTBL en ${annee}.`,
+      x: {
+        label: null,
+        domain: donnees.map((d) => d.mois),
+        tickFormat: (month) => abbreviations[month - 1],
+      },
+      y: { label: "Écart à la référence (°C)", grid: true },
+      marks: [
+        Plot.ruleY([0], { stroke: "#334155" }),
+        Plot.barY(donnees, {
+          x: "mois",
+          y: "ecart",
+          fill: (d) => (d.ecart >= 0 ? "#d95f4f" : "#4776b4"),
+          title: (d) => `${d.nomMois} ${annee}\nÉcart : ${d.ecart.toFixed(2).replace(".", ",")} °C`,
+          tip: true,
+        }),
+      ],
+    });
+  }
+
+  function renderPlot() {
+    const year = Number(selectYear.value);
+    const selectedData = data.filter((d) => d.annee === year);
+    container.replaceChildren(graphiqueV4(selectedData, year));
+  }
+
+  selectYear.addEventListener("change", renderPlot);
+  renderPlot();
+</script>

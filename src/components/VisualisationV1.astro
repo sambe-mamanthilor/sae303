@@ -1,0 +1,59 @@
+---
+import * as Plot from "@observablehq/plot";
+import PlotFigure from "./PlotFigure.astro";
+
+interface Row {
+  annee: number;
+  periode: string;
+  txMoyenne: number;
+  ecartReference: number;
+  auDessusReference: boolean;
+}
+
+interface Props {
+  data: Row[];
+}
+
+const { data } = Astro.props;
+const reference =
+  data
+    .filter((d) => d.periode === "1961–1990")
+    .reduce((sum, d) => sum + d.txMoyenne, 0) / 30;
+const thresholds = Array.from({ length: 11 }, (_, index) => 13 + index * 0.5);
+
+function graphiqueV1(donnees: Row[]) {
+  return {
+    width: 800,
+    height: 440,
+    marginLeft: 60,
+    marginBottom: 60,
+    title: "Les années chaudes sont devenues plus fréquentes à AERO-MTBL",
+    subtitle:
+      "La période 1991–2020 est décalée vers des températures maximales annuelles plus élevées.",
+    caption:
+      "Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL. Chaque période contient 30 années complètes.",
+    ariaLabel:
+      "Histogramme comparant la répartition des températures maximales moyennes annuelles entre 1961–1990 et 1991–2020.",
+    x: { label: "Température maximale moyenne annuelle (°C)", domain: [13, 18] },
+    y: { label: "Nombre d’années", grid: true },
+    color: {
+      legend: true,
+      domain: ["1961–1990", "1991–2020"],
+      range: ["#4776b4", "#d95f4f"],
+    },
+    marks: [
+      Plot.rectY(
+        donnees,
+        Plot.binX(
+          { y: "count" },
+          { x: "txMoyenne", fill: "periode", thresholds, tip: true },
+        ),
+      ),
+      Plot.ruleX([reference], { stroke: "#334155", strokeDasharray: "5,4" }),
+      Plot.ruleY([0]),
+    ],
+  };
+}
+---
+
+<PlotFigure options={graphiqueV1(data)} />

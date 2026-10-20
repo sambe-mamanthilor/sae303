@@ -1,0 +1,422 @@
+[
+  {
+    "annee": 1959,
+    "anomalieTX": 1.85,
+    "anomalieRR": -106.09,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1960,
+    "anomalieTX": 0.11,
+    "anomalieRR": 58.31,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1961,
+    "anomalieTX": 1.44,
+    "anomalieRR": -115.79,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1962,
+    "anomalieTX": -0.46,
+    "anomalieRR": -154.79,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1963,
+    "anomalieTX": -1.07,
+    "anomalieRR": -7.69,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1964,
+    "anomalieTX": 0.15,
+    "anomalieRR": -279.99,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1965,
+    "anomalieTX": -0.9,
+    "anomalieRR": 211.61,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1966,
+    "anomalieTX": -0.05,
+    "anomalieRR": 85.01,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1967,
+    "anomalieTX": 0.45,
+    "anomalieRR": -85.99,
+    "anomalieTX10": null,
+    "anomalieRR10": null
+  },
+  {
+    "annee": 1968,
+    "anomalieTX": -0.24,
+    "anomalieRR": 132.41,
+    "anomalieTX10": 0.13,
+    "anomalieRR10": -26.3
+  },
+  {
+    "annee": 1969,
+    "anomalieTX": -0.55,
+    "anomalieRR": -25.79,
+    "anomalieTX10": -0.11,
+    "anomalieRR10": -18.27
+  },
+  {
+    "annee": 1970,
+    "anomalieTX": -0.76,
+    "anomalieRR": 183.21,
+    "anomalieTX10": -0.2,
+    "anomalieRR10": -5.78
+  },
+  {
+    "annee": 1971,
+    "anomalieTX": 0.49,
+    "anomalieRR": -412.09,
+    "anomalieTX10": -0.29,
+    "anomalieRR10": -35.41
+  },
+  {
+    "annee": 1972,
+    "anomalieTX": -0.43,
+    "anomalieRR": -181.29,
+    "anomalieTX10": -0.29,
+    "anomalieRR10": -38.06
+  },
+  {
+    "annee": 1973,
+    "anomalieTX": -0.33,
+    "anomalieRR": -175.79,
+    "anomalieTX10": -0.22,
+    "anomalieRR10": -54.87
+  },
+  {
+    "annee": 1974,
+    "anomalieTX": 0.32,
+    "anomalieRR": 59.91,
+    "anomalieTX10": -0.2,
+    "anomalieRR10": -20.88
+  },
+  {
+    "annee": 1975,
+    "anomalieTX": 0.12,
+    "anomalieRR": -35.49,
+    "anomalieTX10": -0.1,
+    "anomalieRR10": -45.59
+  },
+  {
+    "annee": 1976,
+    "anomalieTX": 0.7,
+    "anomalieRR": -214.59,
+    "anomalieTX10": -0.02,
+    "anomalieRR10": -75.55
+  },
+  {
+    "annee": 1977,
+    "anomalieTX": 0.31,
+    "anomalieRR": 163.21,
+    "anomalieTX10": -0.04,
+    "anomalieRR10": -50.63
+  },
+  {
+    "annee": 1978,
+    "anomalieTX": -0.62,
+    "anomalieRR": 1.41,
+    "anomalieTX10": -0.07,
+    "anomalieRR10": -63.73
+  },
+  {
+    "annee": 1979,
+    "anomalieTX": -0.24,
+    "anomalieRR": 23.51,
+    "anomalieTX10": -0.04,
+    "anomalieRR10": -58.8
+  },
+  {
+    "annee": 1980,
+    "anomalieTX": -0.84,
+    "anomalieRR": 25.11,
+    "anomalieTX10": -0.05,
+    "anomalieRR10": -74.61
+  },
+  {
+    "annee": 1981,
+    "anomalieTX": -0.34,
+    "anomalieRR": 328.51,
+    "anomalieTX10": -0.13,
+    "anomalieRR10": -0.55
+  },
+  {
+    "annee": 1982,
+    "anomalieTX": 0.74,
+    "anomalieRR": 259.51,
+    "anomalieTX10": -0.02,
+    "anomalieRR10": 43.53
+  },
+  {
+    "annee": 1983,
+    "anomalieTX": 0.79,
+    "anomalieRR": 72.91,
+    "anomalieTX10": 0.09,
+    "anomalieRR10": 68.4
+  },
+  {
+    "annee": 1984,
+    "anomalieTX": -0.29,
+    "anomalieRR": -63.89,
+    "anomalieTX10": 0.03,
+    "anomalieRR10": 56.02
+  },
+  {
+    "annee": 1985,
+    "anomalieTX": -0.46,
+    "anomalieRR": -143.19,
+    "anomalieTX10": -0.02,
+    "anomalieRR10": 45.25
+  },
+  {
+    "annee": 1986,
+    "anomalieTX": -0.33,
+    "anomalieRR": 183.11,
+    "anomalieTX10": -0.13,
+    "anomalieRR10": 85.02
+  },
+  {
+    "annee": 1987,
+    "anomalieTX": -0.99,
+    "anomalieRR": 146.11,
+    "anomalieTX10": -0.26,
+    "anomalieRR10": 83.31
+  },
+  {
+    "annee": 1988,
+    "anomalieTX": 0.54,
+    "anomalieRR": 188.81,
+    "anomalieTX10": -0.14,
+    "anomalieRR10": 102.05
+  },
+  {
+    "annee": 1989,
+    "anomalieTX": 1.45,
+    "anomalieRR": -161.69,
+    "anomalieTX10": 0.03,
+    "anomalieRR10": 83.53
+  },
+  {
+    "annee": 1990,
+    "anomalieTX": 1.38,
+    "anomalieRR": -6.29,
+    "anomalieTX10": 0.25,
+    "anomalieRR10": 80.39
+  },
+  {
+    "annee": 1991,
+    "anomalieTX": 0.46,
+    "anomalieRR": -202.09,
+    "anomalieTX10": 0.33,
+    "anomalieRR10": 27.33
+  },
+  {
+    "annee": 1992,
+    "anomalieTX": 0.73,
+    "anomalieRR": 21.01,
+    "anomalieTX10": 0.33,
+    "anomalieRR10": 3.48
+  },
+  {
+    "annee": 1993,
+    "anomalieTX": 0.24,
+    "anomalieRR": -45.89,
+    "anomalieTX10": 0.27,
+    "anomalieRR10": -8.4
+  },
+  {
+    "annee": 1994,
+    "anomalieTX": 1.75,
+    "anomalieRR": 23.81,
+    "anomalieTX10": 0.48,
+    "anomalieRR10": 0.37
+  },
+  {
+    "annee": 1995,
+    "anomalieTX": 0.94,
+    "anomalieRR": 111.71,
+    "anomalieTX10": 0.62,
+    "anomalieRR10": 25.86
+  },
+  {
+    "annee": 1996,
+    "anomalieTX": -0.52,
+    "anomalieRR": -121.69,
+    "anomalieTX10": 0.6,
+    "anomalieRR10": -4.62
+  },
+  {
+    "annee": 1997,
+    "anomalieTX": 1.35,
+    "anomalieRR": -13.49,
+    "anomalieTX10": 0.83,
+    "anomalieRR10": -20.58
+  },
+  {
+    "annee": 1998,
+    "anomalieTX": 1.05,
+    "anomalieRR": 14.71,
+    "anomalieTX10": 0.88,
+    "anomalieRR10": -37.99
+  },
+  {
+    "annee": 1999,
+    "anomalieTX": 1.02,
+    "anomalieRR": 419.81,
+    "anomalieTX10": 0.84,
+    "anomalieRR10": 20.16
+  },
+  {
+    "annee": 2000,
+    "anomalieTX": 1.8,
+    "anomalieRR": 20.51,
+    "anomalieTX10": 0.88,
+    "anomalieRR10": 22.84
+  },
+  {
+    "annee": 2001,
+    "anomalieTX": 0.81,
+    "anomalieRR": 216.21,
+    "anomalieTX10": 0.92,
+    "anomalieRR10": 64.67
+  },
+  {
+    "annee": 2002,
+    "anomalieTX": 1.34,
+    "anomalieRR": 125.71,
+    "anomalieTX10": 0.98,
+    "anomalieRR10": 75.14
+  },
+  {
+    "annee": 2003,
+    "anomalieTX": 2.67,
+    "anomalieRR": -318.39,
+    "anomalieTX10": 1.22,
+    "anomalieRR10": 47.89
+  },
+  {
+    "annee": 2004,
+    "anomalieTX": 0.68,
+    "anomalieRR": 82.71,
+    "anomalieTX10": 1.11,
+    "anomalieRR10": 53.78
+  },
+  {
+    "annee": 2005,
+    "anomalieTX": 1.21,
+    "anomalieRR": -192.59,
+    "anomalieTX10": 1.14,
+    "anomalieRR10": 23.35
+  },
+  {
+    "annee": 2006,
+    "anomalieTX": 1.49,
+    "anomalieRR": 363.21,
+    "anomalieTX10": 1.34,
+    "anomalieRR10": 71.84
+  },
+  {
+    "annee": 2007,
+    "anomalieTX": 1.72,
+    "anomalieRR": 148.41,
+    "anomalieTX10": 1.38,
+    "anomalieRR10": 88.03
+  },
+  {
+    "annee": 2008,
+    "anomalieTX": 0.91,
+    "anomalieRR": 85.31,
+    "anomalieTX10": 1.37,
+    "anomalieRR10": 95.09
+  },
+  {
+    "annee": 2009,
+    "anomalieTX": 1.85,
+    "anomalieRR": -191.99,
+    "anomalieTX10": 1.45,
+    "anomalieRR10": 33.91
+  },
+  {
+    "annee": 2010,
+    "anomalieTX": -0.16,
+    "anomalieRR": 72.01,
+    "anomalieTX10": 1.25,
+    "anomalieRR10": 39.06
+  },
+  {
+    "annee": 2011,
+    "anomalieTX": 2.31,
+    "anomalieRR": -151.79,
+    "anomalieTX10": 1.4,
+    "anomalieRR10": 2.26
+  },
+  {
+    "annee": 2012,
+    "anomalieTX": 1.12,
+    "anomalieRR": 340.91,
+    "anomalieTX10": 1.38,
+    "anomalieRR10": 23.78
+  },
+  {
+    "annee": 2013,
+    "anomalieTX": 0.29,
+    "anomalieRR": 9.61,
+    "anomalieTX10": 1.14,
+    "anomalieRR10": 56.58
+  },
+  {
+    "annee": 2014,
+    "anomalieTX": 2.4,
+    "anomalieRR": -66.89,
+    "anomalieTX10": 1.31,
+    "anomalieRR10": 41.62
+  },
+  {
+    "annee": 2015,
+    "anomalieTX": 2.64,
+    "anomalieRR": -178.69,
+    "anomalieTX10": 1.46,
+    "anomalieRR10": 43.01
+  },
+  {
+    "annee": 2016,
+    "anomalieTX": 1.3,
+    "anomalieRR": 114.31,
+    "anomalieTX10": 1.44,
+    "anomalieRR10": 18.12
+  },
+  {
+    "annee": 2017,
+    "anomalieTX": 1.89,
+    "anomalieRR": -15.89,
+    "anomalieTX10": 1.45,
+    "anomalieRR10": 1.69
+  },
+  {
+    "annee": 2018,
+    "anomalieTX": 3.14,
+    "anomalieRR": -41.79,
+    "anomalieTX10": 1.68,
+    "anomalieRR10": -11.02
+  }
+]

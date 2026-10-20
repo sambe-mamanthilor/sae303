@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import VisualisationV1 from "../components/VisualisationV1.astro";
+import VisualisationV4 from "../components/VisualisationV4.astro";
+import VisualisationV5 from "../components/VisualisationV5.astro";
+import dataV1 from "../assets/data/v1-temperatures.json";
+import dataV5 from "../assets/data/v5-dorans.json";
+---
+
+<Layout>
+  <main class="mx-auto max-w-5xl space-y-16 px-5 py-12">
+    <header class="space-y-3">
+      <p class="font-semibold uppercase tracking-wider text-slate-600">Préparation du récit</p>
+      <h1 class="text-4xl font-bold text-slate-950">Visualisations V1, V4 et V5</h1>
+      <p class="max-w-3xl text-lg text-slate-700">
+        Composants préparés pour leur intégration dans la page principale de la SAE.
+      </p>
+    </header>
+
+    <section class="space-y-5" aria-labelledby="titre-v1">
+      <h2 id="titre-v1" class="text-3xl font-bold">Le changement apparaît entre deux générations climatiques</h2>
+      <VisualisationV1 data={dataV1} />
+    </section>
+
+    <section class="space-y-5" aria-labelledby="titre-v4">
+      <h2 id="titre-v4" class="text-3xl font-bold">Chaque année possède sa propre signature</h2>
+      <VisualisationV4 />
+    </section>
+
+    <section class="space-y-5" aria-labelledby="titre-v5">
+      <h2 id="titre-v5" class="text-3xl font-bold">À Dorans, plus chaud ne signifie pas automatiquement moins pluvieux</h2>
+      <VisualisationV5 data={dataV5} />
+    </section>
+  </main>
+</Layout>

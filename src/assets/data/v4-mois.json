@@ -1,0 +1,6146 @@
+[
+  {
+    "annee": 1959,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.5,
+    "txReference": 3.85,
+    "ecart": 0.65
+  },
+  {
+    "annee": 1959,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.9,
+    "txReference": 6.28,
+    "ecart": 2.62
+  },
+  {
+    "annee": 1959,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.6,
+    "txReference": 10.01,
+    "ecart": 3.59
+  },
+  {
+    "annee": 1959,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.5,
+    "txReference": 13.93,
+    "ecart": 1.57
+  },
+  {
+    "annee": 1959,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.9,
+    "txReference": 18.08,
+    "ecart": 1.82
+  },
+  {
+    "annee": 1959,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.6,
+    "txReference": 21.41,
+    "ecart": 1.19
+  },
+  {
+    "annee": 1959,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27,
+    "txReference": 23.86,
+    "ecart": 3.14
+  },
+  {
+    "annee": 1959,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.8,
+    "txReference": 23.33,
+    "ecart": 0.47
+  },
+  {
+    "annee": 1959,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 23.3,
+    "txReference": 20.24,
+    "ecart": 3.06
+  },
+  {
+    "annee": 1959,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.5,
+    "txReference": 15.17,
+    "ecart": 1.33
+  },
+  {
+    "annee": 1959,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.4,
+    "txReference": 8.66,
+    "ecart": -1.26
+  },
+  {
+    "annee": 1959,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.9,
+    "txReference": 4.7,
+    "ecart": 2.2
+  },
+  {
+    "annee": 1960,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.2,
+    "txReference": 3.85,
+    "ecart": 0.35
+  },
+  {
+    "annee": 1960,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.6,
+    "txReference": 6.28,
+    "ecart": 1.32
+  },
+  {
+    "annee": 1960,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.2,
+    "txReference": 10.01,
+    "ecart": 1.19
+  },
+  {
+    "annee": 1960,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 1960,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.8,
+    "txReference": 18.08,
+    "ecart": 2.72
+  },
+  {
+    "annee": 1960,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.9,
+    "txReference": 21.41,
+    "ecart": 1.49
+  },
+  {
+    "annee": 1960,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 21,
+    "txReference": 23.86,
+    "ecart": -2.86
+  },
+  {
+    "annee": 1960,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.6,
+    "txReference": 23.33,
+    "ecart": -0.73
+  },
+  {
+    "annee": 1960,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18,
+    "txReference": 20.24,
+    "ecart": -2.24
+  },
+  {
+    "annee": 1960,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.5,
+    "txReference": 15.17,
+    "ecart": -0.67
+  },
+  {
+    "annee": 1960,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11,
+    "txReference": 8.66,
+    "ecart": 2.34
+  },
+  {
+    "annee": 1960,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.7,
+    "txReference": 4.7,
+    "ecart": -1
+  },
+  {
+    "annee": 1961,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.5,
+    "txReference": 3.85,
+    "ecart": 0.65
+  },
+  {
+    "annee": 1961,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 11.9,
+    "txReference": 6.28,
+    "ecart": 5.62
+  },
+  {
+    "annee": 1961,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.7,
+    "txReference": 10.01,
+    "ecart": 3.69
+  },
+  {
+    "annee": 1961,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 17.3,
+    "txReference": 13.93,
+    "ecart": 3.37
+  },
+  {
+    "annee": 1961,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.7,
+    "txReference": 18.08,
+    "ecart": -1.38
+  },
+  {
+    "annee": 1961,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.9,
+    "txReference": 21.41,
+    "ecart": 0.49
+  },
+  {
+    "annee": 1961,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.8,
+    "txReference": 23.86,
+    "ecart": -1.06
+  },
+  {
+    "annee": 1961,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.8,
+    "txReference": 23.33,
+    "ecart": -0.53
+  },
+  {
+    "annee": 1961,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 24.9,
+    "txReference": 20.24,
+    "ecart": 4.66
+  },
+  {
+    "annee": 1961,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.5,
+    "txReference": 15.17,
+    "ecart": 1.33
+  },
+  {
+    "annee": 1961,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.7,
+    "txReference": 8.66,
+    "ecart": -0.96
+  },
+  {
+    "annee": 1961,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.3,
+    "txReference": 4.7,
+    "ecart": 0.6
+  },
+  {
+    "annee": 1962,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6.1,
+    "txReference": 3.85,
+    "ecart": 2.25
+  },
+  {
+    "annee": 1962,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.9,
+    "txReference": 6.28,
+    "ecart": -1.38
+  },
+  {
+    "annee": 1962,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 6.4,
+    "txReference": 10.01,
+    "ecart": -3.61
+  },
+  {
+    "annee": 1962,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 1962,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.4,
+    "txReference": 18.08,
+    "ecart": -1.68
+  },
+  {
+    "annee": 1962,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.5,
+    "txReference": 21.41,
+    "ecart": 0.09
+  },
+  {
+    "annee": 1962,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.1,
+    "txReference": 23.86,
+    "ecart": -0.76
+  },
+  {
+    "annee": 1962,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.5,
+    "txReference": 23.33,
+    "ecart": 2.17
+  },
+  {
+    "annee": 1962,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.1,
+    "txReference": 20.24,
+    "ecart": -0.14
+  },
+  {
+    "annee": 1962,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.9,
+    "txReference": 15.17,
+    "ecart": 0.73
+  },
+  {
+    "annee": 1962,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 6.1,
+    "txReference": 8.66,
+    "ecart": -2.56
+  },
+  {
+    "annee": 1962,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 1.7,
+    "txReference": 4.7,
+    "ecart": -3
+  },
+  {
+    "annee": 1963,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": -2.4,
+    "txReference": 3.85,
+    "ecart": -6.25
+  },
+  {
+    "annee": 1963,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 0.5,
+    "txReference": 6.28,
+    "ecart": -5.78
+  },
+  {
+    "annee": 1963,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.9,
+    "txReference": 10.01,
+    "ecart": -0.11
+  },
+  {
+    "annee": 1963,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.6,
+    "txReference": 13.93,
+    "ecart": 1.67
+  },
+  {
+    "annee": 1963,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.2,
+    "txReference": 18.08,
+    "ecart": -0.88
+  },
+  {
+    "annee": 1963,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.9,
+    "txReference": 21.41,
+    "ecart": -0.51
+  },
+  {
+    "annee": 1963,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 25.2,
+    "txReference": 23.86,
+    "ecart": 1.34
+  },
+  {
+    "annee": 1963,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.6,
+    "txReference": 23.33,
+    "ecart": -1.73
+  },
+  {
+    "annee": 1963,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.5,
+    "txReference": 20.24,
+    "ecart": 0.26
+  },
+  {
+    "annee": 1963,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.2,
+    "txReference": 15.17,
+    "ecart": 0.03
+  },
+  {
+    "annee": 1963,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 12.9,
+    "txReference": 8.66,
+    "ecart": 4.24
+  },
+  {
+    "annee": 1963,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 1.1,
+    "txReference": 4.7,
+    "ecart": -3.6
+  },
+  {
+    "annee": 1964,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 0.6,
+    "txReference": 3.85,
+    "ecart": -3.25
+  },
+  {
+    "annee": 1964,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8,
+    "txReference": 6.28,
+    "ecart": 1.72
+  },
+  {
+    "annee": 1964,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 7,
+    "txReference": 10.01,
+    "ecart": -3.01
+  },
+  {
+    "annee": 1964,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.8,
+    "txReference": 13.93,
+    "ecart": 1.87
+  },
+  {
+    "annee": 1964,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.7,
+    "txReference": 18.08,
+    "ecart": 2.62
+  },
+  {
+    "annee": 1964,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 24,
+    "txReference": 21.41,
+    "ecart": 2.59
+  },
+  {
+    "annee": 1964,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27.8,
+    "txReference": 23.86,
+    "ecart": 3.94
+  },
+  {
+    "annee": 1964,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24,
+    "txReference": 23.33,
+    "ecart": 0.67
+  },
+  {
+    "annee": 1964,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22,
+    "txReference": 20.24,
+    "ecart": 1.76
+  },
+  {
+    "annee": 1964,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 12.6,
+    "txReference": 15.17,
+    "ecart": -2.57
+  },
+  {
+    "annee": 1964,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.4,
+    "txReference": 8.66,
+    "ecart": -0.26
+  },
+  {
+    "annee": 1964,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.9,
+    "txReference": 4.7,
+    "ecart": -0.8
+  },
+  {
+    "annee": 1965,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.7,
+    "txReference": 3.85,
+    "ecart": 0.85
+  },
+  {
+    "annee": 1965,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 2.4,
+    "txReference": 6.28,
+    "ecart": -3.88
+  },
+  {
+    "annee": 1965,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.9,
+    "txReference": 10.01,
+    "ecart": -0.11
+  },
+  {
+    "annee": 1965,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.6,
+    "txReference": 13.93,
+    "ecart": -1.33
+  },
+  {
+    "annee": 1965,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18,
+    "txReference": 18.08,
+    "ecart": -0.08
+  },
+  {
+    "annee": 1965,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.1,
+    "txReference": 21.41,
+    "ecart": 0.69
+  },
+  {
+    "annee": 1965,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 20.9,
+    "txReference": 23.86,
+    "ecart": -2.96
+  },
+  {
+    "annee": 1965,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.8,
+    "txReference": 23.33,
+    "ecart": -1.53
+  },
+  {
+    "annee": 1965,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.7,
+    "txReference": 20.24,
+    "ecart": -2.54
+  },
+  {
+    "annee": 1965,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.7,
+    "txReference": 15.17,
+    "ecart": -0.47
+  },
+  {
+    "annee": 1965,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.6,
+    "txReference": 8.66,
+    "ecart": -1.06
+  },
+  {
+    "annee": 1965,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.5,
+    "txReference": 4.7,
+    "ecart": 2.8
+  },
+  {
+    "annee": 1966,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 1.3,
+    "txReference": 3.85,
+    "ecart": -2.55
+  },
+  {
+    "annee": 1966,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 11.3,
+    "txReference": 6.28,
+    "ecart": 5.02
+  },
+  {
+    "annee": 1966,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.2,
+    "txReference": 10.01,
+    "ecart": -0.81
+  },
+  {
+    "annee": 1966,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.9,
+    "txReference": 13.93,
+    "ecart": 1.97
+  },
+  {
+    "annee": 1966,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19,
+    "txReference": 18.08,
+    "ecart": 0.92
+  },
+  {
+    "annee": 1966,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.7,
+    "txReference": 21.41,
+    "ecart": 1.29
+  },
+  {
+    "annee": 1966,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 21,
+    "txReference": 23.86,
+    "ecart": -2.86
+  },
+  {
+    "annee": 1966,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 20.9,
+    "txReference": 23.33,
+    "ecart": -2.43
+  },
+  {
+    "annee": 1966,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.8,
+    "txReference": 20.24,
+    "ecart": 0.56
+  },
+  {
+    "annee": 1966,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.9,
+    "txReference": 15.17,
+    "ecart": 1.73
+  },
+  {
+    "annee": 1966,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 5.8,
+    "txReference": 8.66,
+    "ecart": -2.86
+  },
+  {
+    "annee": 1966,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6,
+    "txReference": 4.7,
+    "ecart": 1.3
+  },
+  {
+    "annee": 1967,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.8,
+    "txReference": 3.85,
+    "ecart": 0.95
+  },
+  {
+    "annee": 1967,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.7,
+    "txReference": 6.28,
+    "ecart": 2.42
+  },
+  {
+    "annee": 1967,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.4,
+    "txReference": 10.01,
+    "ecart": 1.39
+  },
+  {
+    "annee": 1967,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 13.7,
+    "txReference": 13.93,
+    "ecart": -0.23
+  },
+  {
+    "annee": 1967,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18.3,
+    "txReference": 18.08,
+    "ecart": 0.22
+  },
+  {
+    "annee": 1967,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21,
+    "txReference": 21.41,
+    "ecart": -0.41
+  },
+  {
+    "annee": 1967,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.3,
+    "txReference": 23.86,
+    "ecart": 2.44
+  },
+  {
+    "annee": 1967,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.3,
+    "txReference": 23.33,
+    "ecart": -0.03
+  },
+  {
+    "annee": 1967,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.3,
+    "txReference": 20.24,
+    "ecart": -0.94
+  },
+  {
+    "annee": 1967,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 18.4,
+    "txReference": 15.17,
+    "ecart": 3.23
+  },
+  {
+    "annee": 1967,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.5,
+    "txReference": 8.66,
+    "ecart": -0.16
+  },
+  {
+    "annee": 1967,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.5,
+    "txReference": 4.7,
+    "ecart": -2.2
+  },
+  {
+    "annee": 1968,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.9,
+    "txReference": 3.85,
+    "ecart": 0.05
+  },
+  {
+    "annee": 1968,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.2,
+    "txReference": 6.28,
+    "ecart": 0.92
+  },
+  {
+    "annee": 1968,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.5,
+    "txReference": 10.01,
+    "ecart": 1.49
+  },
+  {
+    "annee": 1968,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16,
+    "txReference": 13.93,
+    "ecart": 2.07
+  },
+  {
+    "annee": 1968,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17,
+    "txReference": 18.08,
+    "ecart": -1.08
+  },
+  {
+    "annee": 1968,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.1,
+    "txReference": 21.41,
+    "ecart": -0.31
+  },
+  {
+    "annee": 1968,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.5,
+    "txReference": 23.86,
+    "ecart": -0.36
+  },
+  {
+    "annee": 1968,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21,
+    "txReference": 23.33,
+    "ecart": -2.33
+  },
+  {
+    "annee": 1968,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.7,
+    "txReference": 20.24,
+    "ecart": -1.54
+  },
+  {
+    "annee": 1968,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.8,
+    "txReference": 15.17,
+    "ecart": 1.63
+  },
+  {
+    "annee": 1968,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7,
+    "txReference": 8.66,
+    "ecart": -1.66
+  },
+  {
+    "annee": 1968,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.7,
+    "txReference": 4.7,
+    "ecart": -2
+  },
+  {
+    "annee": 1969,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5,
+    "txReference": 3.85,
+    "ecart": 1.15
+  },
+  {
+    "annee": 1969,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 3.2,
+    "txReference": 6.28,
+    "ecart": -3.08
+  },
+  {
+    "annee": 1969,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.3,
+    "txReference": 10.01,
+    "ecart": -0.71
+  },
+  {
+    "annee": 1969,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 13.3,
+    "txReference": 13.93,
+    "ecart": -0.63
+  },
+  {
+    "annee": 1969,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.4,
+    "txReference": 18.08,
+    "ecart": 1.32
+  },
+  {
+    "annee": 1969,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 19.3,
+    "txReference": 21.41,
+    "ecart": -2.11
+  },
+  {
+    "annee": 1969,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.4,
+    "txReference": 23.86,
+    "ecart": 0.54
+  },
+  {
+    "annee": 1969,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.5,
+    "txReference": 23.33,
+    "ecart": -0.83
+  },
+  {
+    "annee": 1969,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.6,
+    "txReference": 20.24,
+    "ecart": 0.36
+  },
+  {
+    "annee": 1969,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17,
+    "txReference": 15.17,
+    "ecart": 1.83
+  },
+  {
+    "annee": 1969,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.4,
+    "txReference": 8.66,
+    "ecart": 1.74
+  },
+  {
+    "annee": 1969,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": -0.1,
+    "txReference": 4.7,
+    "ecart": -4.8
+  },
+  {
+    "annee": 1970,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.4,
+    "txReference": 3.85,
+    "ecart": -0.45
+  },
+  {
+    "annee": 1970,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 5.4,
+    "txReference": 6.28,
+    "ecart": -0.88
+  },
+  {
+    "annee": 1970,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 7,
+    "txReference": 10.01,
+    "ecart": -3.01
+  },
+  {
+    "annee": 1970,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 11.4,
+    "txReference": 13.93,
+    "ecart": -2.53
+  },
+  {
+    "annee": 1970,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.5,
+    "txReference": 18.08,
+    "ecart": -0.58
+  },
+  {
+    "annee": 1970,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.9,
+    "txReference": 21.41,
+    "ecart": 1.49
+  },
+  {
+    "annee": 1970,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.1,
+    "txReference": 23.86,
+    "ecart": -1.76
+  },
+  {
+    "annee": 1970,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.6,
+    "txReference": 23.33,
+    "ecart": 1.27
+  },
+  {
+    "annee": 1970,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21,
+    "txReference": 20.24,
+    "ecart": 0.76
+  },
+  {
+    "annee": 1970,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.8,
+    "txReference": 15.17,
+    "ecart": -1.37
+  },
+  {
+    "annee": 1970,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11.7,
+    "txReference": 8.66,
+    "ecart": 3.04
+  },
+  {
+    "annee": 1970,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.2,
+    "txReference": 4.7,
+    "ecart": -1.5
+  },
+  {
+    "annee": 1971,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.2,
+    "txReference": 3.85,
+    "ecart": 0.35
+  },
+  {
+    "annee": 1971,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 6.2,
+    "txReference": 6.28,
+    "ecart": -0.08
+  },
+  {
+    "annee": 1971,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 6.7,
+    "txReference": 10.01,
+    "ecart": -3.31
+  },
+  {
+    "annee": 1971,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 18.2,
+    "txReference": 13.93,
+    "ecart": 4.27
+  },
+  {
+    "annee": 1971,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.3,
+    "txReference": 18.08,
+    "ecart": 2.22
+  },
+  {
+    "annee": 1971,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 19.6,
+    "txReference": 21.41,
+    "ecart": -1.81
+  },
+  {
+    "annee": 1971,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.5,
+    "txReference": 23.86,
+    "ecart": 2.64
+  },
+  {
+    "annee": 1971,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.3,
+    "txReference": 23.33,
+    "ecart": 0.97
+  },
+  {
+    "annee": 1971,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.2,
+    "txReference": 20.24,
+    "ecart": -0.04
+  },
+  {
+    "annee": 1971,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.8,
+    "txReference": 15.17,
+    "ecart": 1.63
+  },
+  {
+    "annee": 1971,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.2,
+    "txReference": 8.66,
+    "ecart": -1.46
+  },
+  {
+    "annee": 1971,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.4,
+    "txReference": 4.7,
+    "ecart": 1.7
+  },
+  {
+    "annee": 1972,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.2,
+    "txReference": 3.85,
+    "ecart": -0.65
+  },
+  {
+    "annee": 1972,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.3,
+    "txReference": 6.28,
+    "ecart": 2.02
+  },
+  {
+    "annee": 1972,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.8,
+    "txReference": 10.01,
+    "ecart": 2.79
+  },
+  {
+    "annee": 1972,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.8,
+    "txReference": 13.93,
+    "ecart": -1.13
+  },
+  {
+    "annee": 1972,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.6,
+    "txReference": 18.08,
+    "ecart": -1.48
+  },
+  {
+    "annee": 1972,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 19.7,
+    "txReference": 21.41,
+    "ecart": -1.71
+  },
+  {
+    "annee": 1972,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.7,
+    "txReference": 23.86,
+    "ecart": -1.16
+  },
+  {
+    "annee": 1972,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.5,
+    "txReference": 23.33,
+    "ecart": -0.83
+  },
+  {
+    "annee": 1972,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.5,
+    "txReference": 20.24,
+    "ecart": -2.74
+  },
+  {
+    "annee": 1972,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14,
+    "txReference": 15.17,
+    "ecart": -1.17
+  },
+  {
+    "annee": 1972,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.9,
+    "txReference": 8.66,
+    "ecart": 2.24
+  },
+  {
+    "annee": 1972,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.7,
+    "txReference": 4.7,
+    "ecart": -1
+  },
+  {
+    "annee": 1973,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 2.1,
+    "txReference": 3.85,
+    "ecart": -1.75
+  },
+  {
+    "annee": 1973,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.7,
+    "txReference": 6.28,
+    "ecart": -1.58
+  },
+  {
+    "annee": 1973,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.6,
+    "txReference": 10.01,
+    "ecart": -0.41
+  },
+  {
+    "annee": 1973,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 11.4,
+    "txReference": 13.93,
+    "ecart": -2.53
+  },
+  {
+    "annee": 1973,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.9,
+    "txReference": 18.08,
+    "ecart": 1.82
+  },
+  {
+    "annee": 1973,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.4,
+    "txReference": 21.41,
+    "ecart": 0.99
+  },
+  {
+    "annee": 1973,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.9,
+    "txReference": 23.86,
+    "ecart": -0.96
+  },
+  {
+    "annee": 1973,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25,
+    "txReference": 23.33,
+    "ecart": 1.67
+  },
+  {
+    "annee": 1973,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21.6,
+    "txReference": 20.24,
+    "ecart": 1.36
+  },
+  {
+    "annee": 1973,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.3,
+    "txReference": 15.17,
+    "ecart": -1.87
+  },
+  {
+    "annee": 1973,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.8,
+    "txReference": 8.66,
+    "ecart": 0.14
+  },
+  {
+    "annee": 1973,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.8,
+    "txReference": 4.7,
+    "ecart": -0.9
+  },
+  {
+    "annee": 1974,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 7.7,
+    "txReference": 3.85,
+    "ecart": 3.85
+  },
+  {
+    "annee": 1974,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.1,
+    "txReference": 6.28,
+    "ecart": 1.82
+  },
+  {
+    "annee": 1974,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.7,
+    "txReference": 10.01,
+    "ecart": 1.69
+  },
+  {
+    "annee": 1974,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.1,
+    "txReference": 13.93,
+    "ecart": 1.17
+  },
+  {
+    "annee": 1974,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.5,
+    "txReference": 18.08,
+    "ecart": -0.58
+  },
+  {
+    "annee": 1974,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.6,
+    "txReference": 21.41,
+    "ecart": -0.81
+  },
+  {
+    "annee": 1974,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.6,
+    "txReference": 23.86,
+    "ecart": -1.26
+  },
+  {
+    "annee": 1974,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.4,
+    "txReference": 23.33,
+    "ecart": 1.07
+  },
+  {
+    "annee": 1974,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19,
+    "txReference": 20.24,
+    "ecart": -1.24
+  },
+  {
+    "annee": 1974,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 8.3,
+    "txReference": 15.17,
+    "ecart": -6.87
+  },
+  {
+    "annee": 1974,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.4,
+    "txReference": 8.66,
+    "ecart": 0.74
+  },
+  {
+    "annee": 1974,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 8.4,
+    "txReference": 4.7,
+    "ecart": 3.7
+  },
+  {
+    "annee": 1975,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 7.9,
+    "txReference": 3.85,
+    "ecart": 4.05
+  },
+  {
+    "annee": 1975,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.3,
+    "txReference": 6.28,
+    "ecart": 2.02
+  },
+  {
+    "annee": 1975,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 7.5,
+    "txReference": 10.01,
+    "ecart": -2.51
+  },
+  {
+    "annee": 1975,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 13.4,
+    "txReference": 13.93,
+    "ecart": -0.53
+  },
+  {
+    "annee": 1975,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.3,
+    "txReference": 18.08,
+    "ecart": -0.78
+  },
+  {
+    "annee": 1975,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.5,
+    "txReference": 21.41,
+    "ecart": -0.91
+  },
+  {
+    "annee": 1975,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.7,
+    "txReference": 23.86,
+    "ecart": -0.16
+  },
+  {
+    "annee": 1975,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.2,
+    "txReference": 23.33,
+    "ecart": 0.87
+  },
+  {
+    "annee": 1975,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21,
+    "txReference": 20.24,
+    "ecart": 0.76
+  },
+  {
+    "annee": 1975,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.5,
+    "txReference": 15.17,
+    "ecart": -1.67
+  },
+  {
+    "annee": 1975,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.3,
+    "txReference": 8.66,
+    "ecart": -0.36
+  },
+  {
+    "annee": 1975,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.3,
+    "txReference": 4.7,
+    "ecart": -1.4
+  },
+  {
+    "annee": 1976,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.4,
+    "txReference": 3.85,
+    "ecart": 0.55
+  },
+  {
+    "annee": 1976,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.2,
+    "txReference": 6.28,
+    "ecart": 0.92
+  },
+  {
+    "annee": 1976,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.7,
+    "txReference": 10.01,
+    "ecart": -0.31
+  },
+  {
+    "annee": 1976,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.6,
+    "txReference": 13.93,
+    "ecart": 0.67
+  },
+  {
+    "annee": 1976,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.9,
+    "txReference": 18.08,
+    "ecart": 1.82
+  },
+  {
+    "annee": 1976,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 26.1,
+    "txReference": 21.41,
+    "ecart": 4.69
+  },
+  {
+    "annee": 1976,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.1,
+    "txReference": 23.86,
+    "ecart": 2.24
+  },
+  {
+    "annee": 1976,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.2,
+    "txReference": 23.33,
+    "ecart": -0.13
+  },
+  {
+    "annee": 1976,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.8,
+    "txReference": 20.24,
+    "ecart": -1.44
+  },
+  {
+    "annee": 1976,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.4,
+    "txReference": 15.17,
+    "ecart": 0.23
+  },
+  {
+    "annee": 1976,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.2,
+    "txReference": 8.66,
+    "ecart": -0.46
+  },
+  {
+    "annee": 1976,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.6,
+    "txReference": 4.7,
+    "ecart": -2.1
+  },
+  {
+    "annee": 1977,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.4,
+    "txReference": 3.85,
+    "ecart": 0.55
+  },
+  {
+    "annee": 1977,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 9.5,
+    "txReference": 6.28,
+    "ecart": 3.22
+  },
+  {
+    "annee": 1977,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.1,
+    "txReference": 10.01,
+    "ecart": 3.09
+  },
+  {
+    "annee": 1977,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 11.2,
+    "txReference": 13.93,
+    "ecart": -2.73
+  },
+  {
+    "annee": 1977,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.5,
+    "txReference": 18.08,
+    "ecart": -0.58
+  },
+  {
+    "annee": 1977,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.4,
+    "txReference": 21.41,
+    "ecart": -1.01
+  },
+  {
+    "annee": 1977,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.1,
+    "txReference": 23.86,
+    "ecart": -0.76
+  },
+  {
+    "annee": 1977,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.6,
+    "txReference": 23.33,
+    "ecart": -1.73
+  },
+  {
+    "annee": 1977,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.7,
+    "txReference": 20.24,
+    "ecart": -1.54
+  },
+  {
+    "annee": 1977,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.4,
+    "txReference": 15.17,
+    "ecart": 1.23
+  },
+  {
+    "annee": 1977,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.3,
+    "txReference": 8.66,
+    "ecart": 0.64
+  },
+  {
+    "annee": 1977,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.9,
+    "txReference": 4.7,
+    "ecart": 1.2
+  },
+  {
+    "annee": 1978,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.4,
+    "txReference": 3.85,
+    "ecart": 0.55
+  },
+  {
+    "annee": 1978,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 3.8,
+    "txReference": 6.28,
+    "ecart": -2.48
+  },
+  {
+    "annee": 1978,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.8,
+    "txReference": 10.01,
+    "ecart": 0.79
+  },
+  {
+    "annee": 1978,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.7,
+    "txReference": 13.93,
+    "ecart": -1.23
+  },
+  {
+    "annee": 1978,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.5,
+    "txReference": 18.08,
+    "ecart": -1.58
+  },
+  {
+    "annee": 1978,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.2,
+    "txReference": 21.41,
+    "ecart": -1.21
+  },
+  {
+    "annee": 1978,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.1,
+    "txReference": 23.86,
+    "ecart": -1.76
+  },
+  {
+    "annee": 1978,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.3,
+    "txReference": 23.33,
+    "ecart": -2.03
+  },
+  {
+    "annee": 1978,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.3,
+    "txReference": 20.24,
+    "ecart": -0.94
+  },
+  {
+    "annee": 1978,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.5,
+    "txReference": 15.17,
+    "ecart": -0.67
+  },
+  {
+    "annee": 1978,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.9,
+    "txReference": 8.66,
+    "ecart": -0.76
+  },
+  {
+    "annee": 1978,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6,
+    "txReference": 4.7,
+    "ecart": 1.3
+  },
+  {
+    "annee": 1979,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 0.9,
+    "txReference": 3.85,
+    "ecart": -2.95
+  },
+  {
+    "annee": 1979,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 6,
+    "txReference": 6.28,
+    "ecart": -0.28
+  },
+  {
+    "annee": 1979,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.7,
+    "txReference": 10.01,
+    "ecart": 0.69
+  },
+  {
+    "annee": 1979,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.6,
+    "txReference": 13.93,
+    "ecart": -1.33
+  },
+  {
+    "annee": 1979,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18,
+    "txReference": 18.08,
+    "ecart": -0.08
+  },
+  {
+    "annee": 1979,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22,
+    "txReference": 21.41,
+    "ecart": 0.59
+  },
+  {
+    "annee": 1979,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.2,
+    "txReference": 23.86,
+    "ecart": -0.66
+  },
+  {
+    "annee": 1979,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.1,
+    "txReference": 23.33,
+    "ecart": -2.23
+  },
+  {
+    "annee": 1979,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.2,
+    "txReference": 20.24,
+    "ecart": -0.04
+  },
+  {
+    "annee": 1979,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16,
+    "txReference": 15.17,
+    "ecart": 0.83
+  },
+  {
+    "annee": 1979,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.3,
+    "txReference": 8.66,
+    "ecart": -0.36
+  },
+  {
+    "annee": 1979,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.3,
+    "txReference": 4.7,
+    "ecart": 2.6
+  },
+  {
+    "annee": 1980,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 2.6,
+    "txReference": 3.85,
+    "ecart": -1.25
+  },
+  {
+    "annee": 1980,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.3,
+    "txReference": 6.28,
+    "ecart": 2.02
+  },
+  {
+    "annee": 1980,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.4,
+    "txReference": 10.01,
+    "ecart": -0.61
+  },
+  {
+    "annee": 1980,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.3,
+    "txReference": 13.93,
+    "ecart": -1.63
+  },
+  {
+    "annee": 1980,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.7,
+    "txReference": 18.08,
+    "ecart": -1.38
+  },
+  {
+    "annee": 1980,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 18.8,
+    "txReference": 21.41,
+    "ecart": -2.61
+  },
+  {
+    "annee": 1980,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 20.5,
+    "txReference": 23.86,
+    "ecart": -3.36
+  },
+  {
+    "annee": 1980,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.5,
+    "txReference": 23.33,
+    "ecart": 0.17
+  },
+  {
+    "annee": 1980,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21.2,
+    "txReference": 20.24,
+    "ecart": 0.96
+  },
+  {
+    "annee": 1980,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.6,
+    "txReference": 15.17,
+    "ecart": -1.57
+  },
+  {
+    "annee": 1980,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.1,
+    "txReference": 8.66,
+    "ecart": -1.56
+  },
+  {
+    "annee": 1980,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 4.2,
+    "txReference": 4.7,
+    "ecart": -0.5
+  },
+  {
+    "annee": 1981,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3,
+    "txReference": 3.85,
+    "ecart": -0.85
+  },
+  {
+    "annee": 1981,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.3,
+    "txReference": 6.28,
+    "ecart": -1.98
+  },
+  {
+    "annee": 1981,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.2,
+    "txReference": 10.01,
+    "ecart": 3.19
+  },
+  {
+    "annee": 1981,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.9,
+    "txReference": 13.93,
+    "ecart": 0.97
+  },
+  {
+    "annee": 1981,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 15.8,
+    "txReference": 18.08,
+    "ecart": -2.28
+  },
+  {
+    "annee": 1981,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21,
+    "txReference": 21.41,
+    "ecart": -0.41
+  },
+  {
+    "annee": 1981,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 21.7,
+    "txReference": 23.86,
+    "ecart": -2.16
+  },
+  {
+    "annee": 1981,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.3,
+    "txReference": 23.33,
+    "ecart": 0.97
+  },
+  {
+    "annee": 1981,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.1,
+    "txReference": 20.24,
+    "ecart": -1.14
+  },
+  {
+    "annee": 1981,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.7,
+    "txReference": 15.17,
+    "ecart": -1.47
+  },
+  {
+    "annee": 1981,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.2,
+    "txReference": 8.66,
+    "ecart": 0.54
+  },
+  {
+    "annee": 1981,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 4.8,
+    "txReference": 4.7,
+    "ecart": 0.1
+  },
+  {
+    "annee": 1982,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.2,
+    "txReference": 3.85,
+    "ecart": 0.35
+  },
+  {
+    "annee": 1982,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 6.2,
+    "txReference": 6.28,
+    "ecart": -0.08
+  },
+  {
+    "annee": 1982,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.5,
+    "txReference": 10.01,
+    "ecart": -0.51
+  },
+  {
+    "annee": 1982,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 13.7,
+    "txReference": 13.93,
+    "ecart": -0.23
+  },
+  {
+    "annee": 1982,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.4,
+    "txReference": 18.08,
+    "ecart": 1.32
+  },
+  {
+    "annee": 1982,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.3,
+    "txReference": 21.41,
+    "ecart": 0.89
+  },
+  {
+    "annee": 1982,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.9,
+    "txReference": 23.86,
+    "ecart": 1.04
+  },
+  {
+    "annee": 1982,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21.9,
+    "txReference": 23.33,
+    "ecart": -1.43
+  },
+  {
+    "annee": 1982,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.7,
+    "txReference": 20.24,
+    "ecart": 2.46
+  },
+  {
+    "annee": 1982,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.9,
+    "txReference": 15.17,
+    "ecart": -1.27
+  },
+  {
+    "annee": 1982,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.5,
+    "txReference": 8.66,
+    "ecart": 1.84
+  },
+  {
+    "annee": 1982,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.8,
+    "txReference": 4.7,
+    "ecart": 1.1
+  },
+  {
+    "annee": 1983,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6.7,
+    "txReference": 3.85,
+    "ecart": 2.85
+  },
+  {
+    "annee": 1983,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 3.3,
+    "txReference": 6.28,
+    "ecart": -2.98
+  },
+  {
+    "annee": 1983,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.6,
+    "txReference": 10.01,
+    "ecart": 0.59
+  },
+  {
+    "annee": 1983,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.2,
+    "txReference": 13.93,
+    "ecart": 0.27
+  },
+  {
+    "annee": 1983,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 15.5,
+    "txReference": 18.08,
+    "ecart": -2.58
+  },
+  {
+    "annee": 1983,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.2,
+    "txReference": 21.41,
+    "ecart": 1.79
+  },
+  {
+    "annee": 1983,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 29.2,
+    "txReference": 23.86,
+    "ecart": 5.34
+  },
+  {
+    "annee": 1983,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.2,
+    "txReference": 23.33,
+    "ecart": 1.87
+  },
+  {
+    "annee": 1983,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.3,
+    "txReference": 20.24,
+    "ecart": 0.06
+  },
+  {
+    "annee": 1983,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.7,
+    "txReference": 15.17,
+    "ecart": -0.47
+  },
+  {
+    "annee": 1983,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.1,
+    "txReference": 8.66,
+    "ecart": -0.56
+  },
+  {
+    "annee": 1983,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 4.8,
+    "txReference": 4.7,
+    "ecart": 0.1
+  },
+  {
+    "annee": 1984,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5,
+    "txReference": 3.85,
+    "ecart": 1.15
+  },
+  {
+    "annee": 1984,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.1,
+    "txReference": 6.28,
+    "ecart": -2.18
+  },
+  {
+    "annee": 1984,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9,
+    "txReference": 10.01,
+    "ecart": -1.01
+  },
+  {
+    "annee": 1984,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14,
+    "txReference": 13.93,
+    "ecart": 0.07
+  },
+  {
+    "annee": 1984,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 14.5,
+    "txReference": 18.08,
+    "ecart": -3.58
+  },
+  {
+    "annee": 1984,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.8,
+    "txReference": 21.41,
+    "ecart": -0.61
+  },
+  {
+    "annee": 1984,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.2,
+    "txReference": 23.86,
+    "ecart": 0.34
+  },
+  {
+    "annee": 1984,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.4,
+    "txReference": 23.33,
+    "ecart": 0.07
+  },
+  {
+    "annee": 1984,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.5,
+    "txReference": 20.24,
+    "ecart": -2.74
+  },
+  {
+    "annee": 1984,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.1,
+    "txReference": 15.17,
+    "ecart": -0.07
+  },
+  {
+    "annee": 1984,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11,
+    "txReference": 8.66,
+    "ecart": 2.34
+  },
+  {
+    "annee": 1984,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 4.8,
+    "txReference": 4.7,
+    "ecart": 0.1
+  },
+  {
+    "annee": 1985,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": -1.4,
+    "txReference": 3.85,
+    "ecart": -5.25
+  },
+  {
+    "annee": 1985,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 5.2,
+    "txReference": 6.28,
+    "ecart": -1.08
+  },
+  {
+    "annee": 1985,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 8.5,
+    "txReference": 10.01,
+    "ecart": -1.51
+  },
+  {
+    "annee": 1985,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 1985,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.3,
+    "txReference": 18.08,
+    "ecart": -0.78
+  },
+  {
+    "annee": 1985,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20,
+    "txReference": 21.41,
+    "ecart": -1.41
+  },
+  {
+    "annee": 1985,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.8,
+    "txReference": 23.86,
+    "ecart": 0.94
+  },
+  {
+    "annee": 1985,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.3,
+    "txReference": 23.33,
+    "ecart": -0.03
+  },
+  {
+    "annee": 1985,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22,
+    "txReference": 20.24,
+    "ecart": 1.76
+  },
+  {
+    "annee": 1985,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.8,
+    "txReference": 15.17,
+    "ecart": 0.63
+  },
+  {
+    "annee": 1985,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 5,
+    "txReference": 8.66,
+    "ecart": -3.66
+  },
+  {
+    "annee": 1985,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.1,
+    "txReference": 4.7,
+    "ecart": 2.4
+  },
+  {
+    "annee": 1986,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5,
+    "txReference": 3.85,
+    "ecart": 1.15
+  },
+  {
+    "annee": 1986,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": -2.3,
+    "txReference": 6.28,
+    "ecart": -8.58
+  },
+  {
+    "annee": 1986,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.1,
+    "txReference": 10.01,
+    "ecart": -0.91
+  },
+  {
+    "annee": 1986,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 10.5,
+    "txReference": 13.93,
+    "ecart": -3.43
+  },
+  {
+    "annee": 1986,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.1,
+    "txReference": 18.08,
+    "ecart": 2.02
+  },
+  {
+    "annee": 1986,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.3,
+    "txReference": 21.41,
+    "ecart": 0.89
+  },
+  {
+    "annee": 1986,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24,
+    "txReference": 23.86,
+    "ecart": 0.14
+  },
+  {
+    "annee": 1986,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.3,
+    "txReference": 23.33,
+    "ecart": -0.03
+  },
+  {
+    "annee": 1986,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.6,
+    "txReference": 20.24,
+    "ecart": -0.64
+  },
+  {
+    "annee": 1986,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.8,
+    "txReference": 15.17,
+    "ecart": 1.63
+  },
+  {
+    "annee": 1986,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11,
+    "txReference": 8.66,
+    "ecart": 2.34
+  },
+  {
+    "annee": 1986,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.8,
+    "txReference": 4.7,
+    "ecart": 1.1
+  },
+  {
+    "annee": 1987,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": -1.6,
+    "txReference": 3.85,
+    "ecart": -5.45
+  },
+  {
+    "annee": 1987,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.7,
+    "txReference": 6.28,
+    "ecart": -1.58
+  },
+  {
+    "annee": 1987,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 6.7,
+    "txReference": 10.01,
+    "ecart": -3.31
+  },
+  {
+    "annee": 1987,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16.3,
+    "txReference": 13.93,
+    "ecart": 2.37
+  },
+  {
+    "annee": 1987,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 15.6,
+    "txReference": 18.08,
+    "ecart": -2.48
+  },
+  {
+    "annee": 1987,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 19.2,
+    "txReference": 21.41,
+    "ecart": -2.21
+  },
+  {
+    "annee": 1987,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.2,
+    "txReference": 23.86,
+    "ecart": -0.66
+  },
+  {
+    "annee": 1987,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.8,
+    "txReference": 23.33,
+    "ecart": -0.53
+  },
+  {
+    "annee": 1987,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.7,
+    "txReference": 20.24,
+    "ecart": 2.46
+  },
+  {
+    "annee": 1987,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.2,
+    "txReference": 15.17,
+    "ecart": 0.03
+  },
+  {
+    "annee": 1987,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.3,
+    "txReference": 8.66,
+    "ecart": 0.64
+  },
+  {
+    "annee": 1987,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.7,
+    "txReference": 4.7,
+    "ecart": 1
+  },
+  {
+    "annee": 1988,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.1,
+    "txReference": 3.85,
+    "ecart": 4.25
+  },
+  {
+    "annee": 1988,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 6.9,
+    "txReference": 6.28,
+    "ecart": 0.62
+  },
+  {
+    "annee": 1988,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 7.9,
+    "txReference": 10.01,
+    "ecart": -2.11
+  },
+  {
+    "annee": 1988,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 1988,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.9,
+    "txReference": 18.08,
+    "ecart": 1.82
+  },
+  {
+    "annee": 1988,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.1,
+    "txReference": 21.41,
+    "ecart": 0.69
+  },
+  {
+    "annee": 1988,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24,
+    "txReference": 23.86,
+    "ecart": 0.14
+  },
+  {
+    "annee": 1988,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.2,
+    "txReference": 23.33,
+    "ecart": 1.87
+  },
+  {
+    "annee": 1988,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20,
+    "txReference": 20.24,
+    "ecart": -0.24
+  },
+  {
+    "annee": 1988,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.6,
+    "txReference": 15.17,
+    "ecart": 0.43
+  },
+  {
+    "annee": 1988,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8,
+    "txReference": 8.66,
+    "ecart": -0.66
+  },
+  {
+    "annee": 1988,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.7,
+    "txReference": 4.7,
+    "ecart": 2
+  },
+  {
+    "annee": 1989,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6.7,
+    "txReference": 3.85,
+    "ecart": 2.85
+  },
+  {
+    "annee": 1989,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.9,
+    "txReference": 6.28,
+    "ecart": 2.62
+  },
+  {
+    "annee": 1989,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 14.8,
+    "txReference": 10.01,
+    "ecart": 4.79
+  },
+  {
+    "annee": 1989,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 11.9,
+    "txReference": 13.93,
+    "ecart": -2.03
+  },
+  {
+    "annee": 1989,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 22.2,
+    "txReference": 18.08,
+    "ecart": 4.12
+  },
+  {
+    "annee": 1989,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.5,
+    "txReference": 21.41,
+    "ecart": 1.09
+  },
+  {
+    "annee": 1989,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 25,
+    "txReference": 23.86,
+    "ecart": 1.14
+  },
+  {
+    "annee": 1989,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.8,
+    "txReference": 23.33,
+    "ecart": 1.47
+  },
+  {
+    "annee": 1989,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.7,
+    "txReference": 20.24,
+    "ecart": 0.46
+  },
+  {
+    "annee": 1989,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17.3,
+    "txReference": 15.17,
+    "ecart": 2.13
+  },
+  {
+    "annee": 1989,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8,
+    "txReference": 8.66,
+    "ecart": -0.66
+  },
+  {
+    "annee": 1989,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.8,
+    "txReference": 4.7,
+    "ecart": 2.1
+  },
+  {
+    "annee": 1990,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6,
+    "txReference": 3.85,
+    "ecart": 2.15
+  },
+  {
+    "annee": 1990,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 13.3,
+    "txReference": 6.28,
+    "ecart": 7.02
+  },
+  {
+    "annee": 1990,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.7,
+    "txReference": 10.01,
+    "ecart": 3.69
+  },
+  {
+    "annee": 1990,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.5,
+    "txReference": 13.93,
+    "ecart": -1.43
+  },
+  {
+    "annee": 1990,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.8,
+    "txReference": 18.08,
+    "ecart": 3.72
+  },
+  {
+    "annee": 1990,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.1,
+    "txReference": 21.41,
+    "ecart": -0.31
+  },
+  {
+    "annee": 1990,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.4,
+    "txReference": 23.86,
+    "ecart": 0.54
+  },
+  {
+    "annee": 1990,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.5,
+    "txReference": 23.33,
+    "ecart": 3.17
+  },
+  {
+    "annee": 1990,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.6,
+    "txReference": 20.24,
+    "ecart": -0.64
+  },
+  {
+    "annee": 1990,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17.3,
+    "txReference": 15.17,
+    "ecart": 2.13
+  },
+  {
+    "annee": 1990,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.1,
+    "txReference": 8.66,
+    "ecart": -0.56
+  },
+  {
+    "annee": 1990,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.4,
+    "txReference": 4.7,
+    "ecart": -1.3
+  },
+  {
+    "annee": 1991,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.2,
+    "txReference": 3.85,
+    "ecart": 1.35
+  },
+  {
+    "annee": 1991,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.5,
+    "txReference": 6.28,
+    "ecart": -1.78
+  },
+  {
+    "annee": 1991,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.7,
+    "txReference": 10.01,
+    "ecart": 2.69
+  },
+  {
+    "annee": 1991,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.5,
+    "txReference": 13.93,
+    "ecart": 0.57
+  },
+  {
+    "annee": 1991,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.4,
+    "txReference": 18.08,
+    "ecart": -1.68
+  },
+  {
+    "annee": 1991,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.1,
+    "txReference": 21.41,
+    "ecart": -1.31
+  },
+  {
+    "annee": 1991,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.1,
+    "txReference": 23.86,
+    "ecart": 2.24
+  },
+  {
+    "annee": 1991,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 27,
+    "txReference": 23.33,
+    "ecart": 3.67
+  },
+  {
+    "annee": 1991,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 23.2,
+    "txReference": 20.24,
+    "ecart": 2.96
+  },
+  {
+    "annee": 1991,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.4,
+    "txReference": 15.17,
+    "ecart": -1.77
+  },
+  {
+    "annee": 1991,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.3,
+    "txReference": 8.66,
+    "ecart": -0.36
+  },
+  {
+    "annee": 1991,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.3,
+    "txReference": 4.7,
+    "ecart": -1.4
+  },
+  {
+    "annee": 1992,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 2.6,
+    "txReference": 3.85,
+    "ecart": -1.25
+  },
+  {
+    "annee": 1992,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.5,
+    "txReference": 6.28,
+    "ecart": 1.22
+  },
+  {
+    "annee": 1992,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.9,
+    "txReference": 10.01,
+    "ecart": 0.89
+  },
+  {
+    "annee": 1992,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.2,
+    "txReference": 13.93,
+    "ecart": 0.27
+  },
+  {
+    "annee": 1992,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.9,
+    "txReference": 18.08,
+    "ecart": 2.82
+  },
+  {
+    "annee": 1992,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.4,
+    "txReference": 21.41,
+    "ecart": -0.01
+  },
+  {
+    "annee": 1992,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 25.1,
+    "txReference": 23.86,
+    "ecart": 1.24
+  },
+  {
+    "annee": 1992,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 27.4,
+    "txReference": 23.33,
+    "ecart": 4.07
+  },
+  {
+    "annee": 1992,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.1,
+    "txReference": 20.24,
+    "ecart": -0.14
+  },
+  {
+    "annee": 1992,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 11.2,
+    "txReference": 15.17,
+    "ecart": -3.97
+  },
+  {
+    "annee": 1992,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.8,
+    "txReference": 8.66,
+    "ecart": 2.14
+  },
+  {
+    "annee": 1992,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.3,
+    "txReference": 4.7,
+    "ecart": 0.6
+  },
+  {
+    "annee": 1993,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.5,
+    "txReference": 3.85,
+    "ecart": 4.65
+  },
+  {
+    "annee": 1993,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.3,
+    "txReference": 6.28,
+    "ecart": -1.98
+  },
+  {
+    "annee": 1993,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.2,
+    "txReference": 10.01,
+    "ecart": 1.19
+  },
+  {
+    "annee": 1993,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16.8,
+    "txReference": 13.93,
+    "ecart": 2.87
+  },
+  {
+    "annee": 1993,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.7,
+    "txReference": 18.08,
+    "ecart": 1.62
+  },
+  {
+    "annee": 1993,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22,
+    "txReference": 21.41,
+    "ecart": 0.59
+  },
+  {
+    "annee": 1993,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.9,
+    "txReference": 23.86,
+    "ecart": -0.96
+  },
+  {
+    "annee": 1993,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.8,
+    "txReference": 23.33,
+    "ecart": 0.47
+  },
+  {
+    "annee": 1993,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.8,
+    "txReference": 20.24,
+    "ecart": -2.44
+  },
+  {
+    "annee": 1993,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 11.5,
+    "txReference": 15.17,
+    "ecart": -3.67
+  },
+  {
+    "annee": 1993,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 4.4,
+    "txReference": 8.66,
+    "ecart": -4.26
+  },
+  {
+    "annee": 1993,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 8,
+    "txReference": 4.7,
+    "ecart": 3.3
+  },
+  {
+    "annee": 1994,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6.3,
+    "txReference": 3.85,
+    "ecart": 2.45
+  },
+  {
+    "annee": 1994,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 6.6,
+    "txReference": 6.28,
+    "ecart": 0.32
+  },
+  {
+    "annee": 1994,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.9,
+    "txReference": 10.01,
+    "ecart": 3.89
+  },
+  {
+    "annee": 1994,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.4,
+    "txReference": 13.93,
+    "ecart": -1.53
+  },
+  {
+    "annee": 1994,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18.6,
+    "txReference": 18.08,
+    "ecart": 0.52
+  },
+  {
+    "annee": 1994,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.3,
+    "txReference": 21.41,
+    "ecart": 1.89
+  },
+  {
+    "annee": 1994,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 28.1,
+    "txReference": 23.86,
+    "ecart": 4.24
+  },
+  {
+    "annee": 1994,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.3,
+    "txReference": 23.33,
+    "ecart": 2.97
+  },
+  {
+    "annee": 1994,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.6,
+    "txReference": 20.24,
+    "ecart": -1.64
+  },
+  {
+    "annee": 1994,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.4,
+    "txReference": 15.17,
+    "ecart": 0.23
+  },
+  {
+    "annee": 1994,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11.8,
+    "txReference": 8.66,
+    "ecart": 3.14
+  },
+  {
+    "annee": 1994,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.7,
+    "txReference": 4.7,
+    "ecart": 3
+  },
+  {
+    "annee": 1995,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.4,
+    "txReference": 3.85,
+    "ecart": 1.55
+  },
+  {
+    "annee": 1995,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.5,
+    "txReference": 6.28,
+    "ecart": 4.22
+  },
+  {
+    "annee": 1995,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.5,
+    "txReference": 10.01,
+    "ecart": -0.51
+  },
+  {
+    "annee": 1995,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.2,
+    "txReference": 13.93,
+    "ecart": 0.27
+  },
+  {
+    "annee": 1995,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.2,
+    "txReference": 18.08,
+    "ecart": 1.12
+  },
+  {
+    "annee": 1995,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 20.6,
+    "txReference": 21.41,
+    "ecart": -0.81
+  },
+  {
+    "annee": 1995,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27.2,
+    "txReference": 23.86,
+    "ecart": 3.34
+  },
+  {
+    "annee": 1995,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.5,
+    "txReference": 23.33,
+    "ecart": 1.17
+  },
+  {
+    "annee": 1995,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.1,
+    "txReference": 20.24,
+    "ecart": -3.14
+  },
+  {
+    "annee": 1995,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 19.2,
+    "txReference": 15.17,
+    "ecart": 4.03
+  },
+  {
+    "annee": 1995,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.7,
+    "txReference": 8.66,
+    "ecart": 0.04
+  },
+  {
+    "annee": 1995,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.9,
+    "txReference": 4.7,
+    "ecart": -1.8
+  },
+  {
+    "annee": 1996,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 2.4,
+    "txReference": 3.85,
+    "ecart": -1.45
+  },
+  {
+    "annee": 1996,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.3,
+    "txReference": 6.28,
+    "ecart": -1.98
+  },
+  {
+    "annee": 1996,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.4,
+    "txReference": 10.01,
+    "ecart": -0.61
+  },
+  {
+    "annee": 1996,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16.2,
+    "txReference": 13.93,
+    "ecart": 2.27
+  },
+  {
+    "annee": 1996,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17,
+    "txReference": 18.08,
+    "ecart": -1.08
+  },
+  {
+    "annee": 1996,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.4,
+    "txReference": 21.41,
+    "ecart": 1.99
+  },
+  {
+    "annee": 1996,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.3,
+    "txReference": 23.86,
+    "ecart": -0.56
+  },
+  {
+    "annee": 1996,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.2,
+    "txReference": 23.33,
+    "ecart": -0.13
+  },
+  {
+    "annee": 1996,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 17.2,
+    "txReference": 20.24,
+    "ecart": -3.04
+  },
+  {
+    "annee": 1996,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15,
+    "txReference": 15.17,
+    "ecart": -0.17
+  },
+  {
+    "annee": 1996,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.1,
+    "txReference": 8.66,
+    "ecart": -0.56
+  },
+  {
+    "annee": 1996,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.1,
+    "txReference": 4.7,
+    "ecart": -2.6
+  },
+  {
+    "annee": 1997,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 1.1,
+    "txReference": 3.85,
+    "ecart": -2.75
+  },
+  {
+    "annee": 1997,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.1,
+    "txReference": 6.28,
+    "ecart": 3.82
+  },
+  {
+    "annee": 1997,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 14,
+    "txReference": 10.01,
+    "ecart": 3.99
+  },
+  {
+    "annee": 1997,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.1,
+    "txReference": 13.93,
+    "ecart": 1.17
+  },
+  {
+    "annee": 1997,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.2,
+    "txReference": 18.08,
+    "ecart": 2.12
+  },
+  {
+    "annee": 1997,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.9,
+    "txReference": 21.41,
+    "ecart": 0.49
+  },
+  {
+    "annee": 1997,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.1,
+    "txReference": 23.86,
+    "ecart": -0.76
+  },
+  {
+    "annee": 1997,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.8,
+    "txReference": 23.33,
+    "ecart": 3.47
+  },
+  {
+    "annee": 1997,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.1,
+    "txReference": 20.24,
+    "ecart": 1.86
+  },
+  {
+    "annee": 1997,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.9,
+    "txReference": 15.17,
+    "ecart": -0.27
+  },
+  {
+    "annee": 1997,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.6,
+    "txReference": 8.66,
+    "ecart": 0.94
+  },
+  {
+    "annee": 1997,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.7,
+    "txReference": 4.7,
+    "ecart": 1
+  },
+  {
+    "annee": 1998,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6.7,
+    "txReference": 3.85,
+    "ecart": 2.85
+  },
+  {
+    "annee": 1998,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.7,
+    "txReference": 6.28,
+    "ecart": 4.42
+  },
+  {
+    "annee": 1998,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.8,
+    "txReference": 10.01,
+    "ecart": 1.79
+  },
+  {
+    "annee": 1998,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.3,
+    "txReference": 13.93,
+    "ecart": 0.37
+  },
+  {
+    "annee": 1998,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.3,
+    "txReference": 18.08,
+    "ecart": 3.22
+  },
+  {
+    "annee": 1998,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.3,
+    "txReference": 21.41,
+    "ecart": 1.89
+  },
+  {
+    "annee": 1998,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.4,
+    "txReference": 23.86,
+    "ecart": 0.54
+  },
+  {
+    "annee": 1998,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.8,
+    "txReference": 23.33,
+    "ecart": 1.47
+  },
+  {
+    "annee": 1998,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.9,
+    "txReference": 20.24,
+    "ecart": -1.34
+  },
+  {
+    "annee": 1998,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.5,
+    "txReference": 15.17,
+    "ecart": -0.67
+  },
+  {
+    "annee": 1998,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 6,
+    "txReference": 8.66,
+    "ecart": -2.66
+  },
+  {
+    "annee": 1998,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.1,
+    "txReference": 4.7,
+    "ecart": 1.4
+  },
+  {
+    "annee": 1999,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.1,
+    "txReference": 3.85,
+    "ecart": 4.25
+  },
+  {
+    "annee": 1999,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.4,
+    "txReference": 6.28,
+    "ecart": -1.88
+  },
+  {
+    "annee": 1999,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.4,
+    "txReference": 10.01,
+    "ecart": 1.39
+  },
+  {
+    "annee": 1999,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.8,
+    "txReference": 13.93,
+    "ecart": 0.87
+  },
+  {
+    "annee": 1999,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.5,
+    "txReference": 18.08,
+    "ecart": 2.42
+  },
+  {
+    "annee": 1999,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.9,
+    "txReference": 21.41,
+    "ecart": 0.49
+  },
+  {
+    "annee": 1999,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.7,
+    "txReference": 23.86,
+    "ecart": 0.84
+  },
+  {
+    "annee": 1999,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.1,
+    "txReference": 23.33,
+    "ecart": 0.77
+  },
+  {
+    "annee": 1999,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.8,
+    "txReference": 20.24,
+    "ecart": 2.56
+  },
+  {
+    "annee": 1999,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.6,
+    "txReference": 15.17,
+    "ecart": -0.57
+  },
+  {
+    "annee": 1999,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 6.7,
+    "txReference": 8.66,
+    "ecart": -1.96
+  },
+  {
+    "annee": 1999,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.4,
+    "txReference": 4.7,
+    "ecart": 1.7
+  },
+  {
+    "annee": 2000,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.8,
+    "txReference": 3.85,
+    "ecart": 0.95
+  },
+  {
+    "annee": 2000,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 9.6,
+    "txReference": 6.28,
+    "ecart": 3.32
+  },
+  {
+    "annee": 2000,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.6,
+    "txReference": 10.01,
+    "ecart": 1.59
+  },
+  {
+    "annee": 2000,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16,
+    "txReference": 13.93,
+    "ecart": 2.07
+  },
+  {
+    "annee": 2000,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.4,
+    "txReference": 18.08,
+    "ecart": 3.32
+  },
+  {
+    "annee": 2000,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 24.4,
+    "txReference": 21.41,
+    "ecart": 2.99
+  },
+  {
+    "annee": 2000,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.2,
+    "txReference": 23.86,
+    "ecart": -1.66
+  },
+  {
+    "annee": 2000,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.1,
+    "txReference": 23.33,
+    "ecart": 1.77
+  },
+  {
+    "annee": 2000,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21.4,
+    "txReference": 20.24,
+    "ecart": 1.16
+  },
+  {
+    "annee": 2000,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.5,
+    "txReference": 15.17,
+    "ecart": 0.33
+  },
+  {
+    "annee": 2000,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11,
+    "txReference": 8.66,
+    "ecart": 2.34
+  },
+  {
+    "annee": 2000,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 8.3,
+    "txReference": 4.7,
+    "ecart": 3.6
+  },
+  {
+    "annee": 2001,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6,
+    "txReference": 3.85,
+    "ecart": 2.15
+  },
+  {
+    "annee": 2001,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8.7,
+    "txReference": 6.28,
+    "ecart": 2.42
+  },
+  {
+    "annee": 2001,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.8,
+    "txReference": 10.01,
+    "ecart": 1.79
+  },
+  {
+    "annee": 2001,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 12.9,
+    "txReference": 13.93,
+    "ecart": -1.03
+  },
+  {
+    "annee": 2001,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.1,
+    "txReference": 18.08,
+    "ecart": 3.02
+  },
+  {
+    "annee": 2001,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 21.5,
+    "txReference": 21.41,
+    "ecart": 0.09
+  },
+  {
+    "annee": 2001,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.9,
+    "txReference": 23.86,
+    "ecart": 1.04
+  },
+  {
+    "annee": 2001,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.7,
+    "txReference": 23.33,
+    "ecart": 2.37
+  },
+  {
+    "annee": 2001,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 16.7,
+    "txReference": 20.24,
+    "ecart": -3.54
+  },
+  {
+    "annee": 2001,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 19.8,
+    "txReference": 15.17,
+    "ecart": 4.63
+  },
+  {
+    "annee": 2001,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.1,
+    "txReference": 8.66,
+    "ecart": -1.56
+  },
+  {
+    "annee": 2001,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.7,
+    "txReference": 4.7,
+    "ecart": -1
+  },
+  {
+    "annee": 2002,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.6,
+    "txReference": 3.85,
+    "ecart": 1.75
+  },
+  {
+    "annee": 2002,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.3,
+    "txReference": 6.28,
+    "ecart": 4.02
+  },
+  {
+    "annee": 2002,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.9,
+    "txReference": 10.01,
+    "ecart": 2.89
+  },
+  {
+    "annee": 2002,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.6,
+    "txReference": 13.93,
+    "ecart": 1.67
+  },
+  {
+    "annee": 2002,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18.3,
+    "txReference": 18.08,
+    "ecart": 0.22
+  },
+  {
+    "annee": 2002,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 25.2,
+    "txReference": 21.41,
+    "ecart": 3.79
+  },
+  {
+    "annee": 2002,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.9,
+    "txReference": 23.86,
+    "ecart": 0.04
+  },
+  {
+    "annee": 2002,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.8,
+    "txReference": 23.33,
+    "ecart": 0.47
+  },
+  {
+    "annee": 2002,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.9,
+    "txReference": 20.24,
+    "ecart": -1.34
+  },
+  {
+    "annee": 2002,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.5,
+    "txReference": 15.17,
+    "ecart": 0.33
+  },
+  {
+    "annee": 2002,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.6,
+    "txReference": 8.66,
+    "ecart": 1.94
+  },
+  {
+    "annee": 2002,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.9,
+    "txReference": 4.7,
+    "ecart": 2.2
+  },
+  {
+    "annee": 2003,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.6,
+    "txReference": 3.85,
+    "ecart": -0.25
+  },
+  {
+    "annee": 2003,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.9,
+    "txReference": 6.28,
+    "ecart": -1.38
+  },
+  {
+    "annee": 2003,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 15.3,
+    "txReference": 10.01,
+    "ecart": 5.29
+  },
+  {
+    "annee": 2003,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16.4,
+    "txReference": 13.93,
+    "ecart": 2.47
+  },
+  {
+    "annee": 2003,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.1,
+    "txReference": 18.08,
+    "ecart": 3.02
+  },
+  {
+    "annee": 2003,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 29.9,
+    "txReference": 21.41,
+    "ecart": 8.49
+  },
+  {
+    "annee": 2003,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27.5,
+    "txReference": 23.86,
+    "ecart": 3.64
+  },
+  {
+    "annee": 2003,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 31.9,
+    "txReference": 23.33,
+    "ecart": 8.57
+  },
+  {
+    "annee": 2003,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.4,
+    "txReference": 20.24,
+    "ecart": 2.16
+  },
+  {
+    "annee": 2003,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 12.1,
+    "txReference": 15.17,
+    "ecart": -3.07
+  },
+  {
+    "annee": 2003,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11.1,
+    "txReference": 8.66,
+    "ecart": 2.44
+  },
+  {
+    "annee": 2003,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.8,
+    "txReference": 4.7,
+    "ecart": 1.1
+  },
+  {
+    "annee": 2004,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.8,
+    "txReference": 3.85,
+    "ecart": 0.95
+  },
+  {
+    "annee": 2004,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.7,
+    "txReference": 6.28,
+    "ecart": 1.42
+  },
+  {
+    "annee": 2004,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.8,
+    "txReference": 10.01,
+    "ecart": 0.79
+  },
+  {
+    "annee": 2004,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.9,
+    "txReference": 13.93,
+    "ecart": 1.97
+  },
+  {
+    "annee": 2004,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18.6,
+    "txReference": 18.08,
+    "ecart": 0.52
+  },
+  {
+    "annee": 2004,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.5,
+    "txReference": 21.41,
+    "ecart": 1.09
+  },
+  {
+    "annee": 2004,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.3,
+    "txReference": 23.86,
+    "ecart": 0.44
+  },
+  {
+    "annee": 2004,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 24.9,
+    "txReference": 23.33,
+    "ecart": 1.57
+  },
+  {
+    "annee": 2004,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21.1,
+    "txReference": 20.24,
+    "ecart": 0.86
+  },
+  {
+    "annee": 2004,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.1,
+    "txReference": 15.17,
+    "ecart": 0.93
+  },
+  {
+    "annee": 2004,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8,
+    "txReference": 8.66,
+    "ecart": -0.66
+  },
+  {
+    "annee": 2004,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.8,
+    "txReference": 4.7,
+    "ecart": -0.9
+  },
+  {
+    "annee": 2005,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.4,
+    "txReference": 3.85,
+    "ecart": 1.55
+  },
+  {
+    "annee": 2005,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4,
+    "txReference": 6.28,
+    "ecart": -2.28
+  },
+  {
+    "annee": 2005,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.1,
+    "txReference": 10.01,
+    "ecart": 2.09
+  },
+  {
+    "annee": 2005,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.5,
+    "txReference": 13.93,
+    "ecart": 1.57
+  },
+  {
+    "annee": 2005,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.2,
+    "txReference": 18.08,
+    "ecart": 2.12
+  },
+  {
+    "annee": 2005,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 25.4,
+    "txReference": 21.41,
+    "ecart": 3.99
+  },
+  {
+    "annee": 2005,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.7,
+    "txReference": 23.86,
+    "ecart": 0.84
+  },
+  {
+    "annee": 2005,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.7,
+    "txReference": 23.33,
+    "ecart": -0.63
+  },
+  {
+    "annee": 2005,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 21.7,
+    "txReference": 20.24,
+    "ecart": 1.46
+  },
+  {
+    "annee": 2005,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 18.6,
+    "txReference": 15.17,
+    "ecart": 3.43
+  },
+  {
+    "annee": 2005,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.4,
+    "txReference": 8.66,
+    "ecart": -0.26
+  },
+  {
+    "annee": 2005,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.4,
+    "txReference": 4.7,
+    "ecart": -1.3
+  },
+  {
+    "annee": 2006,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 2.6,
+    "txReference": 3.85,
+    "ecart": -1.25
+  },
+  {
+    "annee": 2006,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 4.1,
+    "txReference": 6.28,
+    "ecart": -2.18
+  },
+  {
+    "annee": 2006,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 8.7,
+    "txReference": 10.01,
+    "ecart": -1.31
+  },
+  {
+    "annee": 2006,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 2006,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19.2,
+    "txReference": 18.08,
+    "ecart": 1.12
+  },
+  {
+    "annee": 2006,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 25.2,
+    "txReference": 21.41,
+    "ecart": 3.79
+  },
+  {
+    "annee": 2006,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 30.5,
+    "txReference": 23.86,
+    "ecart": 6.64
+  },
+  {
+    "annee": 2006,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 21,
+    "txReference": 23.33,
+    "ecart": -2.33
+  },
+  {
+    "annee": 2006,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 23.2,
+    "txReference": 20.24,
+    "ecart": 2.96
+  },
+  {
+    "annee": 2006,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 18.6,
+    "txReference": 15.17,
+    "ecart": 3.43
+  },
+  {
+    "annee": 2006,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 12.8,
+    "txReference": 8.66,
+    "ecart": 4.14
+  },
+  {
+    "annee": 2006,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.8,
+    "txReference": 4.7,
+    "ecart": 3.1
+  },
+  {
+    "annee": 2007,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 7.8,
+    "txReference": 3.85,
+    "ecart": 3.95
+  },
+  {
+    "annee": 2007,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 11,
+    "txReference": 6.28,
+    "ecart": 4.72
+  },
+  {
+    "annee": 2007,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 11.8,
+    "txReference": 10.01,
+    "ecart": 1.79
+  },
+  {
+    "annee": 2007,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 22,
+    "txReference": 13.93,
+    "ecart": 8.07
+  },
+  {
+    "annee": 2007,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.1,
+    "txReference": 18.08,
+    "ecart": 3.02
+  },
+  {
+    "annee": 2007,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.5,
+    "txReference": 21.41,
+    "ecart": 2.09
+  },
+  {
+    "annee": 2007,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.4,
+    "txReference": 23.86,
+    "ecart": -0.46
+  },
+  {
+    "annee": 2007,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23,
+    "txReference": 23.33,
+    "ecart": -0.33
+  },
+  {
+    "annee": 2007,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.6,
+    "txReference": 20.24,
+    "ecart": -0.64
+  },
+  {
+    "annee": 2007,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.8,
+    "txReference": 15.17,
+    "ecart": 0.63
+  },
+  {
+    "annee": 2007,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.3,
+    "txReference": 8.66,
+    "ecart": -1.36
+  },
+  {
+    "annee": 2007,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 4.9,
+    "txReference": 4.7,
+    "ecart": 0.2
+  },
+  {
+    "annee": 2008,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.4,
+    "txReference": 3.85,
+    "ecart": 4.55
+  },
+  {
+    "annee": 2008,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.4,
+    "txReference": 6.28,
+    "ecart": 4.12
+  },
+  {
+    "annee": 2008,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.6,
+    "txReference": 10.01,
+    "ecart": -0.41
+  },
+  {
+    "annee": 2008,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 13,
+    "txReference": 13.93,
+    "ecart": -0.93
+  },
+  {
+    "annee": 2008,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.1,
+    "txReference": 18.08,
+    "ecart": 3.02
+  },
+  {
+    "annee": 2008,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.6,
+    "txReference": 21.41,
+    "ecart": 1.19
+  },
+  {
+    "annee": 2008,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.7,
+    "txReference": 23.86,
+    "ecart": 0.84
+  },
+  {
+    "annee": 2008,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 23.4,
+    "txReference": 23.33,
+    "ecart": 0.07
+  },
+  {
+    "annee": 2008,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 18.1,
+    "txReference": 20.24,
+    "ecart": -2.14
+  },
+  {
+    "annee": 2008,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.1,
+    "txReference": 15.17,
+    "ecart": -0.07
+  },
+  {
+    "annee": 2008,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.5,
+    "txReference": 8.66,
+    "ecart": 0.84
+  },
+  {
+    "annee": 2008,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 3.6,
+    "txReference": 4.7,
+    "ecart": -1.1
+  },
+  {
+    "annee": 2009,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.4,
+    "txReference": 3.85,
+    "ecart": -0.45
+  },
+  {
+    "annee": 2009,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 5.3,
+    "txReference": 6.28,
+    "ecart": -0.98
+  },
+  {
+    "annee": 2009,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.9,
+    "txReference": 10.01,
+    "ecart": -0.11
+  },
+  {
+    "annee": 2009,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 18.4,
+    "txReference": 13.93,
+    "ecart": 4.47
+  },
+  {
+    "annee": 2009,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 22.3,
+    "txReference": 18.08,
+    "ecart": 4.22
+  },
+  {
+    "annee": 2009,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.2,
+    "txReference": 21.41,
+    "ecart": 1.79
+  },
+  {
+    "annee": 2009,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 25.2,
+    "txReference": 23.86,
+    "ecart": 1.34
+  },
+  {
+    "annee": 2009,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 27,
+    "txReference": 23.33,
+    "ecart": 3.67
+  },
+  {
+    "annee": 2009,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.2,
+    "txReference": 20.24,
+    "ecart": 1.96
+  },
+  {
+    "annee": 2009,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.5,
+    "txReference": 15.17,
+    "ecart": 0.33
+  },
+  {
+    "annee": 2009,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 12.1,
+    "txReference": 8.66,
+    "ecart": 3.44
+  },
+  {
+    "annee": 2009,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.5,
+    "txReference": 4.7,
+    "ecart": 0.8
+  },
+  {
+    "annee": 2010,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 1.6,
+    "txReference": 3.85,
+    "ecart": -2.25
+  },
+  {
+    "annee": 2010,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 5.6,
+    "txReference": 6.28,
+    "ecart": -0.68
+  },
+  {
+    "annee": 2010,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.6,
+    "txReference": 10.01,
+    "ecart": 0.59
+  },
+  {
+    "annee": 2010,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 16.9,
+    "txReference": 13.93,
+    "ecart": 2.97
+  },
+  {
+    "annee": 2010,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.2,
+    "txReference": 18.08,
+    "ecart": -1.88
+  },
+  {
+    "annee": 2010,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.8,
+    "txReference": 21.41,
+    "ecart": 1.39
+  },
+  {
+    "annee": 2010,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.9,
+    "txReference": 23.86,
+    "ecart": 3.04
+  },
+  {
+    "annee": 2010,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.5,
+    "txReference": 23.33,
+    "ecart": -0.83
+  },
+  {
+    "annee": 2010,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.6,
+    "txReference": 20.24,
+    "ecart": -0.64
+  },
+  {
+    "annee": 2010,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.5,
+    "txReference": 15.17,
+    "ecart": -0.67
+  },
+  {
+    "annee": 2010,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 8.8,
+    "txReference": 8.66,
+    "ecart": 0.14
+  },
+  {
+    "annee": 2010,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 2.5,
+    "txReference": 4.7,
+    "ecart": -2.2
+  },
+  {
+    "annee": 2011,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.7,
+    "txReference": 3.85,
+    "ecart": 1.85
+  },
+  {
+    "annee": 2011,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 7.9,
+    "txReference": 6.28,
+    "ecart": 1.62
+  },
+  {
+    "annee": 2011,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.8,
+    "txReference": 10.01,
+    "ecart": 2.79
+  },
+  {
+    "annee": 2011,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 20.3,
+    "txReference": 13.93,
+    "ecart": 6.37
+  },
+  {
+    "annee": 2011,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 23.3,
+    "txReference": 18.08,
+    "ecart": 5.22
+  },
+  {
+    "annee": 2011,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.3,
+    "txReference": 21.41,
+    "ecart": 1.89
+  },
+  {
+    "annee": 2011,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 22.2,
+    "txReference": 23.86,
+    "ecart": -1.66
+  },
+  {
+    "annee": 2011,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.3,
+    "txReference": 23.33,
+    "ecart": 1.97
+  },
+  {
+    "annee": 2011,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 23.5,
+    "txReference": 20.24,
+    "ecart": 3.26
+  },
+  {
+    "annee": 2011,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.2,
+    "txReference": 15.17,
+    "ecart": 1.03
+  },
+  {
+    "annee": 2011,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.7,
+    "txReference": 8.66,
+    "ecart": 2.04
+  },
+  {
+    "annee": 2011,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.7,
+    "txReference": 4.7,
+    "ecart": 3
+  },
+  {
+    "annee": 2012,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.8,
+    "txReference": 3.85,
+    "ecart": 1.95
+  },
+  {
+    "annee": 2012,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 2.3,
+    "txReference": 6.28,
+    "ecart": -3.98
+  },
+  {
+    "annee": 2012,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 15.9,
+    "txReference": 10.01,
+    "ecart": 5.89
+  },
+  {
+    "annee": 2012,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.4,
+    "txReference": 13.93,
+    "ecart": 0.47
+  },
+  {
+    "annee": 2012,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.5,
+    "txReference": 18.08,
+    "ecart": 2.42
+  },
+  {
+    "annee": 2012,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 23.1,
+    "txReference": 21.41,
+    "ecart": 1.69
+  },
+  {
+    "annee": 2012,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.4,
+    "txReference": 23.86,
+    "ecart": -0.46
+  },
+  {
+    "annee": 2012,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.7,
+    "txReference": 23.33,
+    "ecart": 2.37
+  },
+  {
+    "annee": 2012,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.6,
+    "txReference": 20.24,
+    "ecart": 0.36
+  },
+  {
+    "annee": 2012,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 15.2,
+    "txReference": 15.17,
+    "ecart": 0.03
+  },
+  {
+    "annee": 2012,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.4,
+    "txReference": 8.66,
+    "ecart": 1.74
+  },
+  {
+    "annee": 2012,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.7,
+    "txReference": 4.7,
+    "ecart": 2
+  },
+  {
+    "annee": 2013,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 3.7,
+    "txReference": 3.85,
+    "ecart": -0.15
+  },
+  {
+    "annee": 2013,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 3.5,
+    "txReference": 6.28,
+    "ecart": -2.78
+  },
+  {
+    "annee": 2013,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 7.1,
+    "txReference": 10.01,
+    "ecart": -2.91
+  },
+  {
+    "annee": 2013,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 2013,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 15.4,
+    "txReference": 18.08,
+    "ecart": -2.68
+  },
+  {
+    "annee": 2013,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.3,
+    "txReference": 21.41,
+    "ecart": 0.89
+  },
+  {
+    "annee": 2013,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27.4,
+    "txReference": 23.86,
+    "ecart": 3.54
+  },
+  {
+    "annee": 2013,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 25.3,
+    "txReference": 23.33,
+    "ecart": 1.97
+  },
+  {
+    "annee": 2013,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.6,
+    "txReference": 20.24,
+    "ecart": 0.36
+  },
+  {
+    "annee": 2013,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17,
+    "txReference": 15.17,
+    "ecart": 1.83
+  },
+  {
+    "annee": 2013,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.7,
+    "txReference": 8.66,
+    "ecart": -0.96
+  },
+  {
+    "annee": 2013,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.9,
+    "txReference": 4.7,
+    "ecart": 3.2
+  },
+  {
+    "annee": 2014,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.1,
+    "txReference": 3.85,
+    "ecart": 4.25
+  },
+  {
+    "annee": 2014,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10,
+    "txReference": 6.28,
+    "ecart": 3.72
+  },
+  {
+    "annee": 2014,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 14.8,
+    "txReference": 10.01,
+    "ecart": 4.79
+  },
+  {
+    "annee": 2014,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 17.2,
+    "txReference": 13.93,
+    "ecart": 3.27
+  },
+  {
+    "annee": 2014,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 19,
+    "txReference": 18.08,
+    "ecart": 0.92
+  },
+  {
+    "annee": 2014,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 25.4,
+    "txReference": 21.41,
+    "ecart": 3.99
+  },
+  {
+    "annee": 2014,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 23.9,
+    "txReference": 23.86,
+    "ecart": 0.04
+  },
+  {
+    "annee": 2014,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.2,
+    "txReference": 23.33,
+    "ecart": -1.13
+  },
+  {
+    "annee": 2014,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.2,
+    "txReference": 20.24,
+    "ecart": 1.96
+  },
+  {
+    "annee": 2014,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 18.7,
+    "txReference": 15.17,
+    "ecart": 3.53
+  },
+  {
+    "annee": 2014,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11.6,
+    "txReference": 8.66,
+    "ecart": 2.94
+  },
+  {
+    "annee": 2014,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.2,
+    "txReference": 4.7,
+    "ecart": 1.5
+  },
+  {
+    "annee": 2015,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 6,
+    "txReference": 3.85,
+    "ecart": 2.15
+  },
+  {
+    "annee": 2015,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 5.8,
+    "txReference": 6.28,
+    "ecart": -0.48
+  },
+  {
+    "annee": 2015,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13,
+    "txReference": 10.01,
+    "ecart": 2.99
+  },
+  {
+    "annee": 2015,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 17.2,
+    "txReference": 13.93,
+    "ecart": 3.27
+  },
+  {
+    "annee": 2015,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.2,
+    "txReference": 18.08,
+    "ecart": 2.12
+  },
+  {
+    "annee": 2015,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 24.6,
+    "txReference": 21.41,
+    "ecart": 3.19
+  },
+  {
+    "annee": 2015,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 29.1,
+    "txReference": 23.86,
+    "ecart": 5.24
+  },
+  {
+    "annee": 2015,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 27,
+    "txReference": 23.33,
+    "ecart": 3.67
+  },
+  {
+    "annee": 2015,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20,
+    "txReference": 20.24,
+    "ecart": -0.24
+  },
+  {
+    "annee": 2015,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.4,
+    "txReference": 15.17,
+    "ecart": -0.77
+  },
+  {
+    "annee": 2015,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 12.9,
+    "txReference": 8.66,
+    "ecart": 4.24
+  },
+  {
+    "annee": 2015,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 11.2,
+    "txReference": 4.7,
+    "ecart": 6.5
+  },
+  {
+    "annee": 2016,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 7.3,
+    "txReference": 3.85,
+    "ecart": 3.45
+  },
+  {
+    "annee": 2016,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 8,
+    "txReference": 6.28,
+    "ecart": 1.72
+  },
+  {
+    "annee": 2016,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 10.2,
+    "txReference": 10.01,
+    "ecart": 0.19
+  },
+  {
+    "annee": 2016,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.2,
+    "txReference": 13.93,
+    "ecart": 0.27
+  },
+  {
+    "annee": 2016,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 18.8,
+    "txReference": 18.08,
+    "ecart": 0.72
+  },
+  {
+    "annee": 2016,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.3,
+    "txReference": 21.41,
+    "ecart": 0.89
+  },
+  {
+    "annee": 2016,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 25.6,
+    "txReference": 23.86,
+    "ecart": 1.74
+  },
+  {
+    "annee": 2016,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.4,
+    "txReference": 23.33,
+    "ecart": 3.07
+  },
+  {
+    "annee": 2016,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 23.7,
+    "txReference": 20.24,
+    "ecart": 3.46
+  },
+  {
+    "annee": 2016,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 13.9,
+    "txReference": 15.17,
+    "ecart": -1.27
+  },
+  {
+    "annee": 2016,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.1,
+    "txReference": 8.66,
+    "ecart": 0.44
+  },
+  {
+    "annee": 2016,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.6,
+    "txReference": 4.7,
+    "ecart": 0.9
+  },
+  {
+    "annee": 2017,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 1.1,
+    "txReference": 3.85,
+    "ecart": -2.75
+  },
+  {
+    "annee": 2017,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10,
+    "txReference": 6.28,
+    "ecart": 3.72
+  },
+  {
+    "annee": 2017,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 14.8,
+    "txReference": 10.01,
+    "ecart": 4.79
+  },
+  {
+    "annee": 2017,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.7,
+    "txReference": 13.93,
+    "ecart": 1.77
+  },
+  {
+    "annee": 2017,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21,
+    "txReference": 18.08,
+    "ecart": 2.92
+  },
+  {
+    "annee": 2017,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 26.7,
+    "txReference": 21.41,
+    "ecart": 5.29
+  },
+  {
+    "annee": 2017,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 26.4,
+    "txReference": 23.86,
+    "ecart": 2.54
+  },
+  {
+    "annee": 2017,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.8,
+    "txReference": 23.33,
+    "ecart": 3.47
+  },
+  {
+    "annee": 2017,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 19.4,
+    "txReference": 20.24,
+    "ecart": -0.84
+  },
+  {
+    "annee": 2017,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17.9,
+    "txReference": 15.17,
+    "ecart": 2.73
+  },
+  {
+    "annee": 2017,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.5,
+    "txReference": 8.66,
+    "ecart": 0.84
+  },
+  {
+    "annee": 2017,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 5.5,
+    "txReference": 4.7,
+    "ecart": 0.8
+  },
+  {
+    "annee": 2018,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 9.4,
+    "txReference": 3.85,
+    "ecart": 5.55
+  },
+  {
+    "annee": 2018,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 3.1,
+    "txReference": 6.28,
+    "ecart": -3.18
+  },
+  {
+    "annee": 2018,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 9.3,
+    "txReference": 10.01,
+    "ecart": -0.71
+  },
+  {
+    "annee": 2018,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 20,
+    "txReference": 13.93,
+    "ecart": 6.07
+  },
+  {
+    "annee": 2018,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 21.6,
+    "txReference": 18.08,
+    "ecart": 3.52
+  },
+  {
+    "annee": 2018,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 24.9,
+    "txReference": 21.41,
+    "ecart": 3.49
+  },
+  {
+    "annee": 2018,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 29.4,
+    "txReference": 23.86,
+    "ecart": 5.54
+  },
+  {
+    "annee": 2018,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 28,
+    "txReference": 23.33,
+    "ecart": 4.67
+  },
+  {
+    "annee": 2018,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 24.9,
+    "txReference": 20.24,
+    "ecart": 4.66
+  },
+  {
+    "annee": 2018,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 17.8,
+    "txReference": 15.17,
+    "ecart": 2.63
+  },
+  {
+    "annee": 2018,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 10.4,
+    "txReference": 8.66,
+    "ecart": 1.74
+  },
+  {
+    "annee": 2018,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.4,
+    "txReference": 4.7,
+    "ecart": 2.7
+  },
+  {
+    "annee": 2019,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.1,
+    "txReference": 3.85,
+    "ecart": 0.25
+  },
+  {
+    "annee": 2019,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 12,
+    "txReference": 6.28,
+    "ecart": 5.72
+  },
+  {
+    "annee": 2019,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 13.5,
+    "txReference": 10.01,
+    "ecart": 3.49
+  },
+  {
+    "annee": 2019,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.5,
+    "txReference": 13.93,
+    "ecart": 1.57
+  },
+  {
+    "annee": 2019,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 17.5,
+    "txReference": 18.08,
+    "ecart": -0.58
+  },
+  {
+    "annee": 2019,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 26.4,
+    "txReference": 21.41,
+    "ecart": 4.99
+  },
+  {
+    "annee": 2019,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 28.3,
+    "txReference": 23.86,
+    "ecart": 4.44
+  },
+  {
+    "annee": 2019,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 26.8,
+    "txReference": 23.33,
+    "ecart": 3.47
+  },
+  {
+    "annee": 2019,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.3,
+    "txReference": 20.24,
+    "ecart": 2.06
+  },
+  {
+    "annee": 2019,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.7,
+    "txReference": 15.17,
+    "ecart": 1.53
+  },
+  {
+    "annee": 2019,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 9.6,
+    "txReference": 8.66,
+    "ecart": 0.94
+  },
+  {
+    "annee": 2019,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 8.6,
+    "txReference": 4.7,
+    "ecart": 3.9
+  },
+  {
+    "annee": 2020,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 8.4,
+    "txReference": 3.85,
+    "ecart": 4.55
+  },
+  {
+    "annee": 2020,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 12.1,
+    "txReference": 6.28,
+    "ecart": 5.82
+  },
+  {
+    "annee": 2020,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.3,
+    "txReference": 10.01,
+    "ecart": 2.29
+  },
+  {
+    "annee": 2020,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 20.5,
+    "txReference": 13.93,
+    "ecart": 6.57
+  },
+  {
+    "annee": 2020,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 20.4,
+    "txReference": 18.08,
+    "ecart": 2.32
+  },
+  {
+    "annee": 2020,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 22.9,
+    "txReference": 21.41,
+    "ecart": 1.49
+  },
+  {
+    "annee": 2020,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 27,
+    "txReference": 23.86,
+    "ecart": 3.14
+  },
+  {
+    "annee": 2020,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 28,
+    "txReference": 23.33,
+    "ecart": 4.67
+  },
+  {
+    "annee": 2020,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 24,
+    "txReference": 20.24,
+    "ecart": 3.76
+  },
+  {
+    "annee": 2020,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 14.8,
+    "txReference": 15.17,
+    "ecart": -0.37
+  },
+  {
+    "annee": 2020,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 12.6,
+    "txReference": 8.66,
+    "ecart": 3.94
+  },
+  {
+    "annee": 2020,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 7.1,
+    "txReference": 4.7,
+    "ecart": 2.4
+  },
+  {
+    "annee": 2021,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 4.9,
+    "txReference": 3.85,
+    "ecart": 1.05
+  },
+  {
+    "annee": 2021,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 9.9,
+    "txReference": 6.28,
+    "ecart": 3.62
+  },
+  {
+    "annee": 2021,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 12.4,
+    "txReference": 10.01,
+    "ecart": 2.39
+  },
+  {
+    "annee": 2021,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 14.7,
+    "txReference": 13.93,
+    "ecart": 0.77
+  },
+  {
+    "annee": 2021,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 16.9,
+    "txReference": 18.08,
+    "ecart": -1.18
+  },
+  {
+    "annee": 2021,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 25.3,
+    "txReference": 21.41,
+    "ecart": 3.89
+  },
+  {
+    "annee": 2021,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 24.1,
+    "txReference": 23.86,
+    "ecart": 0.24
+  },
+  {
+    "annee": 2021,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 22.8,
+    "txReference": 23.33,
+    "ecart": -0.53
+  },
+  {
+    "annee": 2021,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 22.9,
+    "txReference": 20.24,
+    "ecart": 2.66
+  },
+  {
+    "annee": 2021,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 16.6,
+    "txReference": 15.17,
+    "ecart": 1.43
+  },
+  {
+    "annee": 2021,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 7.7,
+    "txReference": 8.66,
+    "ecart": -0.96
+  },
+  {
+    "annee": 2021,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.8,
+    "txReference": 4.7,
+    "ecart": 2.1
+  },
+  {
+    "annee": 2022,
+    "mois": 1,
+    "nomMois": "Janvier",
+    "txAnnee": 5.8,
+    "txReference": 3.85,
+    "ecart": 1.95
+  },
+  {
+    "annee": 2022,
+    "mois": 2,
+    "nomMois": "Février",
+    "txAnnee": 10.1,
+    "txReference": 6.28,
+    "ecart": 3.82
+  },
+  {
+    "annee": 2022,
+    "mois": 3,
+    "nomMois": "Mars",
+    "txAnnee": 14.7,
+    "txReference": 10.01,
+    "ecart": 4.69
+  },
+  {
+    "annee": 2022,
+    "mois": 4,
+    "nomMois": "Avril",
+    "txAnnee": 15.4,
+    "txReference": 13.93,
+    "ecart": 1.47
+  },
+  {
+    "annee": 2022,
+    "mois": 5,
+    "nomMois": "Mai",
+    "txAnnee": 23,
+    "txReference": 18.08,
+    "ecart": 4.92
+  },
+  {
+    "annee": 2022,
+    "mois": 6,
+    "nomMois": "Juin",
+    "txAnnee": 27,
+    "txReference": 21.41,
+    "ecart": 5.59
+  },
+  {
+    "annee": 2022,
+    "mois": 7,
+    "nomMois": "Juillet",
+    "txAnnee": 29,
+    "txReference": 23.86,
+    "ecart": 5.14
+  },
+  {
+    "annee": 2022,
+    "mois": 8,
+    "nomMois": "Août",
+    "txAnnee": 28.9,
+    "txReference": 23.33,
+    "ecart": 5.57
+  },
+  {
+    "annee": 2022,
+    "mois": 9,
+    "nomMois": "Septembre",
+    "txAnnee": 20.6,
+    "txReference": 20.24,
+    "ecart": 0.36
+  },
+  {
+    "annee": 2022,
+    "mois": 10,
+    "nomMois": "Octobre",
+    "txAnnee": 20.7,
+    "txReference": 15.17,
+    "ecart": 5.53
+  },
+  {
+    "annee": 2022,
+    "mois": 11,
+    "nomMois": "Novembre",
+    "txAnnee": 11.6,
+    "txReference": 8.66,
+    "ecart": 2.94
+  },
+  {
+    "annee": 2022,
+    "mois": 12,
+    "nomMois": "Décembre",
+    "txAnnee": 6.2,
+    "txReference": 4.7,
+    "ecart": 1.5
+  }
+]
