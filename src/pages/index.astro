@@ -15,13 +15,13 @@ import dataV5 from "../assets/data/v5-dorans.json";
     <section class="border-b border-teal-100 bg-gradient-to-b from-teal-50 to-stone-50 text-slate-950 dark:border-slate-800 dark:from-slate-900 dark:to-slate-950 dark:text-white">
       <div class="mx-auto max-w-6xl px-5 py-20 sm:py-28">
         <p class="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-teal-800 dark:text-teal-300">
-          Climat · Pays de Montbéliard
+          Climat en mutation · Pays de Montbéliard
         </p>
         <h1 class="max-w-4xl text-4xl font-bold leading-tight sm:text-6xl">
           Les années chaudes sont-elles devenues la norme ?
         </h1>
         <p class="mt-7 max-w-3xl text-lg leading-relaxed text-slate-700 dark:text-slate-200 sm:text-xl">
-          Depuis 1959, les températures maximales observées à AERO-MTBL racontent un changement net. Nous comparons deux générations climatiques, les saisons et les stations régionales pour comprendre ce qui évolue près de chez nous.
+          Températures maximales, saisons et précipitations : ce que révèlent plus de soixante ans de mesures autour du Pays de Montbéliard.
         </p>
         <a
           href="#contexte"
@@ -46,6 +46,9 @@ import dataV5 from "../assets/data/v5-dorans.json";
         <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-7">
           <VisualisationV1 data={dataV1} />
         </div>
+        <p class="mt-5 max-w-4xl border-l-4 border-teal-600 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
+          À retenir : la distribution récente se déplace vers les températures les plus élevées. Les années chaudes, auparavant rares, deviennent beaucoup plus fréquentes après 1990.
+        </p>
       </div>
     </section>
 
@@ -82,6 +85,9 @@ import dataV5 from "../assets/data/v5-dorans.json";
         <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-7">
           <VisualisationV4 />
         </div>
+        <p class="mt-5 max-w-4xl border-l-4 border-amber-600 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
+          À retenir : le réchauffement annuel ne signifie pas que tous les mois sont systématiquement plus chauds. Le curseur permet d’observer cette variabilité d’une année à l’autre.
+        </p>
       </div>
     </section>
 
@@ -97,6 +103,9 @@ import dataV5 from "../assets/data/v5-dorans.json";
         <div class="mt-10 rounded-2xl border border-slate-200 bg-stone-50 p-4 shadow-sm dark:border-slate-700 dark:bg-slate-950 sm:p-7">
           <VisualisationV5 data={dataV5} />
         </div>
+        <p class="mt-5 max-w-4xl border-l-4 border-sky-700 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
+          À retenir : la hausse des températures est nette, mais les précipitations restent très irrégulières. Ces deux évolutions ne permettent pas, à elles seules, d’établir un lien de causalité.
+        </p>
       </div>
     </section>
 
@@ -104,7 +113,7 @@ import dataV5 from "../assets/data/v5-dorans.json";
       <div class="mx-auto max-w-4xl px-5 text-center">
         <h2 class="text-3xl font-bold">D’où viennent ces résultats ?</h2>
         <p class="mt-4 text-slate-700 dark:text-slate-300">
-          Les sources, traitements, limites et fichiers téléchargeables seront détaillés dans la page Méthode.
+          Les sources, traitements, limites et fichiers téléchargeables sont détaillés dans la page Méthode.
         </p>
         <a
           href="/methode/"

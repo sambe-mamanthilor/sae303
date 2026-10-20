@@ -28,7 +28,7 @@ function graphiqueTemperature(donnees: Row[]) {
     subtitle: "Anomalies annuelles et moyenne mobile sur dix ans.",
     ariaLabel: "Évolution des anomalies de température maximale à Dorans entre 1959 et 2018.",
     style: { background: "transparent", color: "currentColor" },
-    x: { label: null, domain: [1959, 2018] },
+    x: { label: null, domain: [1959, 2018], tickFormat: (year) => String(year) },
     y: { label: "Anomalie (°C)", grid: true },
     marks: [
       Plot.ruleY([0], { stroke: "#334155" }),
@@ -48,10 +48,10 @@ function graphiquePluie(donnees: Row[]) {
     title: "Précipitations (RR)",
     subtitle: "Les précipitations restent très variables malgré la hausse de la température.",
     caption:
-      "Source : Météo-France, LSH, station Dorans. Référence 1961–1990. Les deux indicateurs utilisent des échelles séparées.",
+      "Source : Météo-France, Longues Séries Homogénéisées, station Dorans. Référence 1961–1990. Les deux indicateurs utilisent des échelles séparées.",
     ariaLabel: "Évolution des anomalies de précipitations à Dorans entre 1959 et 2018.",
     style: { background: "transparent", color: "currentColor" },
-    x: { label: "Année", domain: [1959, 2018] },
+    x: { label: "Année", domain: [1959, 2018], tickFormat: (year) => String(year) },
     y: { label: "Anomalie (mm/an)", grid: true },
     marks: [
       Plot.ruleY([0], { stroke: "#334155" }),

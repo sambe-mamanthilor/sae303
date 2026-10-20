@@ -15,10 +15,7 @@ interface Props {
 }
 
 const { data } = Astro.props;
-const reference =
-  data
-    .filter((d) => d.periode === "1961–1990")
-    .reduce((sum, d) => sum + d.txMoyenne, 0) / 30;
+const reference = 14.17;
 const thresholds = Array.from({ length: 11 }, (_, index) => 13 + index * 0.5);
 
 function graphiqueV1(donnees: Row[]) {
@@ -31,7 +28,7 @@ function graphiqueV1(donnees: Row[]) {
     title: "Répartition des températures maximales moyennes annuelles à AERO-MTBL",
     subtitle:
       "Chaque barre regroupe des années, pas forcément consécutives, dans un intervalle de 0,5 °C. La période 1991–2020 est décalée vers des températures plus élevées.",
-    caption: `Lecture : si une barre atteint 10, cela signifie que 10 années sur les 30 de la période appartiennent à cet intervalle de température. Source : Météo-France, LSH, station AERO-MTBL · ligne pointillée : moyenne 1961–1990 (${reference.toFixed(2).replace(".", ",")} °C).`,
+    caption: `Lecture : si une barre atteint 10, cela signifie que 10 années sur les 30 de la période appartiennent à cet intervalle de température. Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL · ligne pointillée : moyenne 1961–1990 (${reference.toFixed(2).replace(".", ",")} °C).`,
     ariaLabel:
       "Histogramme comparant la répartition des températures maximales moyennes annuelles entre 1961–1990 et 1991–2020.",
     style: { background: "transparent", color: "currentColor" },
