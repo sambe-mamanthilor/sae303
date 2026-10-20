@@ -17,6 +17,28 @@ interface Props {
 const { data } = Astro.props;
 const smoothed = data.filter((d) => d.anomalieTX10 !== null && d.anomalieRR10 !== null);
 
+function correlation(donnees: Row[]) {
+  const moyenneTX = donnees.reduce((sum, d) => sum + d.anomalieTX, 0) / donnees.length;
+  const moyenneRR = donnees.reduce((sum, d) => sum + d.anomalieRR, 0) / donnees.length;
+  const covariance = donnees.reduce(
+    (sum, d) => sum + (d.anomalieTX - moyenneTX) * (d.anomalieRR - moyenneRR),
+    0,
+  );
+  const ecartTX = Math.sqrt(
+    donnees.reduce((sum, d) => sum + (d.anomalieTX - moyenneTX) ** 2, 0),
+  );
+  const ecartRR = Math.sqrt(
+    donnees.reduce((sum, d) => sum + (d.anomalieRR - moyenneRR) ** 2, 0),
+  );
+  return covariance / (ecartTX * ecartRR);
+}
+
+const correlationAnnuelle = correlation(data);
+const correlationAffichee = correlationAnnuelle
+  .toFixed(2)
+  .replace("-", "−")
+  .replace(".", ",");
+
 function graphiqueTemperature(donnees: Row[]) {
   return {
     width: 1000,
@@ -63,9 +85,13 @@ function graphiquePluie(donnees: Row[]) {
 ---
 
 <div class="space-y-3">
+  <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-700 dark:text-slate-300" aria-label="Légende des graphiques">
+    <span class="inline-flex items-center gap-2"><span class="h-3 w-3 rounded-full bg-slate-400 opacity-50" aria-hidden="true"></span>Points : valeurs annuelles</span>
+    <span class="inline-flex items-center gap-2"><span class="h-1 w-8 rounded-full bg-slate-700 dark:bg-slate-200" aria-hidden="true"></span>Lignes : moyennes mobiles sur dix ans</span>
+  </div>
   <PlotFigure options={graphiqueTemperature(data)} />
   <PlotFigure options={graphiquePluie(data)} />
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100">
-    Corrélation annuelle faible (r = −0,15) : cette comparaison ne démontre pas de relation causale.
+    Corrélation annuelle faible (r = {correlationAffichee}) : cette comparaison ne démontre pas de relation causale.
   </p>
 </div>

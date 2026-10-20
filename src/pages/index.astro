@@ -4,6 +4,7 @@ import VisualisationV1 from "../components/VisualisationV1.astro";
 import VisualisationV4 from "../components/VisualisationV4.astro";
 import VisualisationV5 from "../components/VisualisationV5.astro";
 import dataV1 from "../assets/data/v1-temperatures.json";
+import metadataV1 from "../assets/data/v1-metadata.json";
 import dataV5 from "../assets/data/v5-dorans.json";
 ---
 
@@ -53,7 +54,7 @@ import dataV5 from "../assets/data/v5-dorans.json";
           </p>
         </div>
         <div class="mt-10 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-7">
-          <VisualisationV1 data={dataV1} />
+          <VisualisationV1 data={dataV1} reference={metadataV1.referenceTX} />
         </div>
         <p class="mt-5 max-w-4xl border-l-4 border-teal-600 pl-4 leading-relaxed text-slate-700 dark:text-slate-300">
           À retenir : le changement ne repose pas sur quelques années exceptionnelles. Entre 1991 et 2020, 28 années sur 30 dépassent la moyenne de référence 1961–1990, contre 13 sur 30 auparavant.
@@ -128,7 +129,7 @@ import dataV5 from "../assets/data/v5-dorans.json";
           <h2 class="mt-3 text-3xl font-bold sm:text-4xl">Alors, les années chaudes sont-elles devenues la norme ?</h2>
           <div class="mt-6 space-y-4 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
             <p>Oui, si l’on prend la période 1961–1990 comme référence. À AERO-MTBL, 28 des 30 années de 1991–2020 dépassent désormais cette ancienne moyenne. Une année autrefois considérée comme chaude est devenue beaucoup plus courante.</p>
-            <p>Cette évolution ne signifie toutefois pas que chaque mois est systématiquement plus chaud, ni que la hausse des températures entraîne automatiquement une baisse des précipitations. Elle décrit un déplacement durable de la référence climatique, malgré une variabilité toujours visible d’un mois et d’une année à l’autre.</p>
+          <p>Cette évolution ne signifie toutefois pas que chaque mois est systématiquement plus chaud, ni que la hausse des températures entraîne automatiquement une baisse des précipitations. Elle montre un déplacement durable de la distribution des températures par rapport à la référence 1961–1990, malgré une variabilité toujours visible d’un mois et d’une année à l’autre.</p>
           </div>
         </div>
       </div>

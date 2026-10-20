@@ -150,6 +150,10 @@ const dataV5 = commonYears.map((row, index, values) => {
 
 await Promise.all([
   writeFile(resolve(outputDirectory, "v1-temperatures.json"), JSON.stringify(dataV1, null, 2)),
+  writeFile(
+    resolve(outputDirectory, "v1-metadata.json"),
+    JSON.stringify({ referenceTX: round(referenceV1) }, null, 2),
+  ),
   writeFile(resolve(outputDirectory, "v4-mois.json"), JSON.stringify(dataV4, null, 2)),
   writeFile(resolve(outputDirectory, "v5-dorans.json"), JSON.stringify(dataV5, null, 2)),
 ]);

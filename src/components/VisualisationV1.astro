@@ -12,10 +12,10 @@ interface Row {
 
 interface Props {
   data: Row[];
+  reference: number;
 }
 
-const { data } = Astro.props;
-const reference = 14.17;
+const { data, reference } = Astro.props;
 const thresholds = Array.from({ length: 11 }, (_, index) => 13 + index * 0.5);
 
 function graphiqueV1(donnees: Row[]) {
