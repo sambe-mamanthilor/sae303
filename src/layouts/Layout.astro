@@ -1,26 +1,60 @@
 ---
 import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Climat du Pays de Montbéliard",
+  description = "Évolution des températures maximales dans le Pays de Montbéliard depuis 1959.",
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <meta name="description" content={description} />
+    <title>{title}</title>
   </head>
-  <body>
+  <body class="min-h-screen bg-stone-50 text-slate-900">
+    <a
+      href="#contenu"
+      class="sr-only z-50 rounded-md bg-white px-4 py-2 font-semibold text-slate-950 focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+    >
+      Aller au contenu
+    </a>
+
+    <header class="border-b border-slate-200 bg-white/95">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-4">
+        <a href="/" class="font-bold text-slate-950">
+          Climat · Pays de Montbéliard
+        </a>
+
+        <nav aria-label="Navigation principale">
+          <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700">
+            <li><a class="hover:text-teal-800" href="/#contexte">Contexte</a></li>
+            <li><a class="hover:text-teal-800" href="/#exploration">Exploration</a></li>
+            <li><a class="hover:text-teal-800" href="/#revelation">Révélation</a></li>
+            <li><a class="hover:text-teal-800" href="/#conclusion">Conclusion</a></li>
+            <li><a class="hover:text-teal-800" href="/methode/">Méthode</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <slot />
+
+    <footer class="mt-20 border-t border-slate-200 bg-slate-950 text-slate-200">
+      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <p>SAÉ 303 · Ruslana Budniak et Mamanthilor Sambe</p>
+        <p>Données Météo-France · Licence Ouverte 2.0</p>
+      </div>
+    </footer>
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
