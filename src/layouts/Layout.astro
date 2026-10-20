@@ -21,8 +21,16 @@ const {
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <script is:inline>
+      document.documentElement.classList.toggle(
+        "dark",
+        localStorage.theme === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches),
+      );
+    </script>
   </head>
-  <body class="min-h-screen bg-stone-50 text-slate-900">
+  <body class="min-h-screen bg-stone-50 text-slate-900 transition-colors dark:bg-slate-950 dark:text-slate-100">
     <a
       href="#contenu"
       class="sr-only z-50 rounded-md bg-white px-4 py-2 font-semibold text-slate-950 focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
@@ -30,27 +38,39 @@ const {
       Aller au contenu
     </a>
 
-    <header class="border-b border-slate-200 bg-white/95">
+    <header class="border-b border-slate-200 bg-white/95 transition-colors dark:border-slate-700 dark:bg-slate-900/95">
       <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-4">
-        <a href="/" class="font-bold text-slate-950">
+        <a href="/" class="font-bold text-slate-950 dark:text-white">
           Climat · Pays de Montbéliard
         </a>
 
-        <nav aria-label="Navigation principale">
-          <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700">
-            <li><a class="hover:text-teal-800" href="/#contexte">Contexte</a></li>
-            <li><a class="hover:text-teal-800" href="/#exploration">Exploration</a></li>
-            <li><a class="hover:text-teal-800" href="/#revelation">Révélation</a></li>
-            <li><a class="hover:text-teal-800" href="/#conclusion">Conclusion</a></li>
-            <li><a class="hover:text-teal-800" href="/methode/">Méthode</a></li>
-          </ul>
-        </nav>
+        <div class="flex flex-wrap items-center gap-4">
+          <nav aria-label="Navigation principale">
+            <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700 dark:text-slate-200">
+              <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#contexte">Contexte</a></li>
+              <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#exploration">Exploration</a></li>
+              <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#revelation">Révélation</a></li>
+              <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#conclusion">Conclusion</a></li>
+              <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/methode/">Méthode</a></li>
+            </ul>
+          </nav>
+
+          <button
+            id="theme-toggle"
+            type="button"
+            class="rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:text-slate-100 dark:hover:border-teal-300 dark:hover:text-teal-300"
+            aria-pressed="false"
+          >
+            <span data-theme-icon aria-hidden="true">◐</span>
+            <span data-theme-label>Mode sombre</span>
+          </button>
+        </div>
       </div>
     </header>
 
     <slot />
 
-    <footer class="mt-20 border-t border-slate-200 bg-slate-950 text-slate-200">
+    <footer class="mt-20 border-t border-slate-200 bg-slate-950 text-slate-200 dark:border-slate-800 dark:bg-black">
       <div class="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm sm:flex-row sm:items-center sm:justify-between">
         <p>SAÉ 303 · Ruslana Budniak et Mamanthilor Sambe</p>
         <p>Données Météo-France · Licence Ouverte 2.0</p>
@@ -58,3 +78,22 @@ const {
     </footer>
   </body>
 </html>
+
+<script>
+  const themeButton = document.querySelector("#theme-toggle") as HTMLButtonElement;
+  const themeLabel = themeButton.querySelector("[data-theme-label]") as HTMLSpanElement;
+
+  function updateThemeButton() {
+    const dark = document.documentElement.classList.contains("dark");
+    themeButton.setAttribute("aria-pressed", String(dark));
+    themeLabel.textContent = dark ? "Mode clair" : "Mode sombre";
+  }
+
+  themeButton.addEventListener("click", () => {
+    const dark = document.documentElement.classList.toggle("dark");
+    localStorage.theme = dark ? "dark" : "light";
+    updateThemeButton();
+  });
+
+  updateThemeButton();
+</script>

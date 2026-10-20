@@ -60,6 +60,7 @@ const lastYear = Math.max(...years);
       caption:
         "Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL, données Q_HOM = 1.",
       ariaLabel: `Graphique des écarts mensuels de température maximale à AERO-MTBL en ${annee}.`,
+      style: { background: "transparent", color: "currentColor" },
       x: {
         label: null,
         domain: donnees.map((d) => d.mois),
