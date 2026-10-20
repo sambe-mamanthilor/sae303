@@ -27,7 +27,7 @@ const years = [...new Set(data.map((d) => d.annee))];
 
   function graphiqueV4(donnees: typeof data, annee: number) {
     return Plot.plot({
-      width: Math.min(container.clientWidth || 800, 800),
+      width: Math.min(container.clientWidth || 1000, 1000),
       height: 420,
       marginLeft: 65,
       marginBottom: 55,
