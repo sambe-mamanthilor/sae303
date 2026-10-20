@@ -6,4 +6,15 @@ const { options } = Astro.props;
 const plot = Plot.plot({ ...options, document: new JSDOM("").window.document });
 ---
 
-<div set:html={plot.outerHTML} />
+<div class="plot-figure overflow-x-auto" set:html={plot.outerHTML} />
+
+<style>
+  :global(.plot-figure > figure) {
+    margin-inline: auto;
+  }
+
+  :global(.plot-figure svg) {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
