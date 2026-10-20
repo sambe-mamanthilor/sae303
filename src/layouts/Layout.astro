@@ -39,13 +39,13 @@ const {
     </a>
 
     <header class="border-b border-slate-200 bg-white/95 transition-colors dark:border-slate-700 dark:bg-slate-900/95">
-      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-4">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-4">
         <a href="/" class="font-bold text-slate-950 dark:text-white">
-          Climat · Pays de Montbéliard
+          Climat en mutation · Pays de Montbéliard
         </a>
 
-        <div class="flex flex-wrap items-center gap-4">
-          <nav aria-label="Navigation principale">
+        <div class="flex items-center gap-2">
+          <nav class="hidden md:block" aria-label="Navigation principale">
             <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700 dark:text-slate-200">
               <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#contexte">Contexte</a></li>
               <li><a class="hover:text-teal-800 dark:hover:text-teal-300" href="/#exploration">Exploration</a></li>
@@ -64,7 +64,28 @@ const {
             <span data-theme-icon aria-hidden="true">◐</span>
             <span data-theme-label>Mode sombre</span>
           </button>
+
+          <button
+            id="menu-toggle"
+            type="button"
+            class="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:text-slate-100 dark:hover:border-teal-300 dark:hover:text-teal-300 md:hidden"
+            aria-expanded="false"
+            aria-controls="mobile-navigation"
+          >
+            <span aria-hidden="true">☰</span>
+            <span>Menu</span>
+          </button>
         </div>
+
+        <nav id="mobile-navigation" class="hidden w-full border-t border-slate-200 pt-3 dark:border-slate-700 md:hidden" aria-label="Navigation mobile">
+          <ul class="grid gap-1 text-sm font-medium text-slate-700 dark:text-slate-200">
+            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#contexte">Contexte</a></li>
+            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#exploration">Exploration</a></li>
+            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#revelation">Révélation</a></li>
+            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#conclusion">Conclusion</a></li>
+            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/methode/">Méthode</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -96,4 +117,29 @@ const {
   });
 
   updateThemeButton();
+
+  const menuButton = document.querySelector("#menu-toggle") as HTMLButtonElement;
+  const mobileNavigation = document.querySelector("#mobile-navigation") as HTMLElement;
+
+  function closeMenu() {
+    mobileNavigation.classList.add("hidden");
+    menuButton.setAttribute("aria-expanded", "false");
+  }
+
+  menuButton.addEventListener("click", () => {
+    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+    mobileNavigation.classList.toggle("hidden", isOpen);
+    menuButton.setAttribute("aria-expanded", String(!isOpen));
+  });
+
+  mobileNavigation.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
 </script>
