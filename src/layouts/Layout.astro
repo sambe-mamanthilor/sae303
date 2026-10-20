@@ -39,9 +39,9 @@ const {
     </a>
 
     <header class="border-b border-slate-200 bg-white/95 transition-colors dark:border-slate-700 dark:bg-slate-900/95">
-      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-4">
-        <a href="/" class="font-bold text-slate-950 dark:text-white">
-          Climat en mutation · Pays de Montbéliard
+      <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-5 sm:py-4">
+        <a href="/" class="min-w-0 font-bold text-slate-950 dark:text-white">
+          <span>Climat en mutation</span><span class="hidden sm:inline"> · Pays de Montbéliard</span>
         </a>
 
         <div class="flex items-center gap-2">
@@ -58,36 +58,46 @@ const {
           <button
             id="theme-toggle"
             type="button"
-            class="rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:text-slate-100 dark:hover:border-teal-300 dark:hover:text-teal-300"
-            aria-pressed="false"
+            role="switch"
+            class="inline-flex items-center gap-2 rounded-full bg-slate-100 px-2.5 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
+            aria-checked="false"
           >
-            <span data-theme-icon aria-hidden="true">◐</span>
-            <span data-theme-label>Mode sombre</span>
+            <span data-theme-label class="max-[360px]:sr-only">Mode sombre</span>
+            <span class="relative h-6 w-11 shrink-0 rounded-full bg-slate-300 transition-colors dark:bg-teal-500" aria-hidden="true">
+              <span class="absolute left-1 top-1 h-4 w-4 rounded-full bg-white shadow-sm transition-transform dark:translate-x-5"></span>
+            </span>
           </button>
 
           <button
             id="menu-toggle"
             type="button"
-            class="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:text-slate-100 dark:hover:border-teal-300 dark:hover:text-teal-300 md:hidden"
-            aria-expanded="false"
-            aria-controls="mobile-navigation"
+            class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-700 text-xl text-white transition hover:bg-teal-800 dark:bg-teal-300 dark:text-slate-950 dark:hover:bg-teal-200 md:hidden"
+            aria-label="Ouvrir le menu"
+            aria-controls="mobile-menu"
           >
             <span aria-hidden="true">☰</span>
-            <span>Menu</span>
           </button>
         </div>
+      </div>
+    </header>
 
-        <nav id="mobile-navigation" class="hidden w-full border-t border-slate-200 pt-3 dark:border-slate-700 md:hidden" aria-label="Navigation mobile">
-          <ul class="grid gap-1 text-sm font-medium text-slate-700 dark:text-slate-200">
-            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#contexte">Contexte</a></li>
-            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#exploration">Exploration</a></li>
-            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#revelation">Révélation</a></li>
-            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#conclusion">Conclusion</a></li>
-            <li><a class="block rounded-lg px-3 py-2 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/methode/">Méthode</a></li>
+    <dialog id="mobile-menu" class="fixed inset-y-0 left-auto right-0 m-0 h-dvh max-h-none w-80 max-w-[88vw] bg-white p-0 text-slate-950 shadow-2xl backdrop:bg-slate-950/55 dark:bg-slate-900 dark:text-white md:hidden">
+      <div class="flex h-full flex-col p-5">
+        <div class="flex items-center justify-between gap-4 border-b border-slate-200 pb-5 dark:border-slate-700">
+          <p class="font-bold">Navigation</p>
+          <button id="menu-close" type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-2xl hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700" aria-label="Fermer le menu">×</button>
+        </div>
+        <nav class="mt-5" aria-label="Navigation mobile">
+          <ul class="grid gap-2 font-medium">
+            <li><a class="block rounded-xl px-4 py-3 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#contexte">Contexte</a></li>
+            <li><a class="block rounded-xl px-4 py-3 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#exploration">Exploration</a></li>
+            <li><a class="block rounded-xl px-4 py-3 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#revelation">Révélation</a></li>
+            <li><a class="block rounded-xl px-4 py-3 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/#conclusion">Conclusion</a></li>
+            <li><a class="block rounded-xl px-4 py-3 hover:bg-teal-50 hover:text-teal-800 dark:hover:bg-slate-800 dark:hover:text-teal-300" href="/methode/">Méthode</a></li>
           </ul>
         </nav>
       </div>
-    </header>
+    </dialog>
 
     <slot />
 
@@ -106,7 +116,7 @@ const {
 
   function updateThemeButton() {
     const dark = document.documentElement.classList.contains("dark");
-    themeButton.setAttribute("aria-pressed", String(dark));
+    themeButton.setAttribute("aria-checked", String(dark));
     themeLabel.textContent = dark ? "Mode clair" : "Mode sombre";
   }
 
@@ -119,27 +129,26 @@ const {
   updateThemeButton();
 
   const menuButton = document.querySelector("#menu-toggle") as HTMLButtonElement;
-  const mobileNavigation = document.querySelector("#mobile-navigation") as HTMLElement;
+  const menuCloseButton = document.querySelector("#menu-close") as HTMLButtonElement;
+  const mobileMenu = document.querySelector("#mobile-menu") as HTMLDialogElement;
 
   function closeMenu() {
-    mobileNavigation.classList.add("hidden");
-    menuButton.setAttribute("aria-expanded", "false");
+    mobileMenu.close();
   }
 
   menuButton.addEventListener("click", () => {
-    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-    mobileNavigation.classList.toggle("hidden", isOpen);
-    menuButton.setAttribute("aria-expanded", String(!isOpen));
+    mobileMenu.showModal();
   });
 
-  mobileNavigation.querySelectorAll("a").forEach((link) => {
+  menuCloseButton.addEventListener("click", closeMenu);
+
+  mobileMenu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", closeMenu);
   });
 
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
+  mobileMenu.addEventListener("click", (event) => {
+    if (event.target === mobileMenu) {
       closeMenu();
-      menuButton.focus();
     }
   });
 </script>
