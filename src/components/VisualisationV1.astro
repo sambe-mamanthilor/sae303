@@ -24,20 +24,25 @@ const thresholds = Array.from({ length: 11 }, (_, index) => 13 + index * 0.5);
 function graphiqueV1(donnees: Row[]) {
   return {
     width: 1000,
-    height: 440,
+    height: 620,
     marginLeft: 60,
-    marginBottom: 60,
-    title: "Les années chaudes sont devenues plus fréquentes à AERO-MTBL",
+    marginRight: 110,
+    marginBottom: 55,
+    title: "Répartition des températures maximales moyennes annuelles à AERO-MTBL",
     subtitle:
-      "La période 1991–2020 est décalée vers des températures maximales annuelles plus élevées.",
-    caption:
-      "Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL. Chaque période contient 30 années complètes.",
+      "Chaque barre regroupe des années, pas forcément consécutives, dans un intervalle de 0,5 °C. La période 1991–2020 est décalée vers des températures plus élevées.",
+    caption: `Lecture : si une barre atteint 10, cela signifie que 10 années sur les 30 de la période appartiennent à cet intervalle de température. Source : Météo-France, LSH, station AERO-MTBL · ligne pointillée : moyenne 1961–1990 (${reference.toFixed(2).replace(".", ",")} °C).`,
     ariaLabel:
       "Histogramme comparant la répartition des températures maximales moyennes annuelles entre 1961–1990 et 1991–2020.",
     x: { label: "Température maximale moyenne annuelle (°C)", domain: [13, 18] },
-    y: { label: "Nombre d’années", grid: true },
+    y: { label: "Nombre d’années sur 30", grid: true },
+    fy: {
+      domain: ["1961–1990", "1991–2020"],
+      axis: "right",
+      label: null,
+    },
     color: {
-      legend: true,
+      legend: false,
       domain: ["1961–1990", "1991–2020"],
       range: ["#4776b4", "#d95f4f"],
     },
@@ -46,7 +51,7 @@ function graphiqueV1(donnees: Row[]) {
         donnees,
         Plot.binX(
           { y: "count" },
-          { x: "txMoyenne", fill: "periode", thresholds, tip: true },
+          { x: "txMoyenne", fy: "periode", fill: "periode", thresholds, tip: true },
         ),
       ),
       Plot.ruleX([reference], { stroke: "#334155", strokeDasharray: "5,4" }),

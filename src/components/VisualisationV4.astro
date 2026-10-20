@@ -2,18 +2,40 @@
 import data from "../assets/data/v4-mois.json";
 
 const years = [...new Set(data.map((d) => d.annee))];
+const firstYear = Math.min(...years);
+const lastYear = Math.max(...years);
 ---
 
 <div class="space-y-5">
-  <label for="annee-v4" class="block font-semibold text-slate-800">
-    Choisissez une année
-  </label>
-  <select
-    id="annee-v4"
-    class="rounded-lg border border-slate-300 bg-white px-4 py-2 text-slate-900"
-  >
-    {years.map((year) => <option value={year} selected={year === 2022}>{year}</option>)}
-  </select>
+  <div class="rounded-xl bg-slate-100 p-4 dark:bg-slate-800">
+    <label for="annee-v4-number" class="block font-semibold text-slate-800 dark:text-slate-100">
+      Choisissez une année : quels mois étaient plus chauds ou plus froids que la normale 1961–1990 ?
+    </label>
+    <div class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center">
+      <input
+        id="annee-v4-number"
+        class="w-28 rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
+        type="number"
+        min={firstYear}
+        max={lastYear}
+        value={lastYear}
+      />
+      <input
+        id="annee-v4-range"
+        class="w-full cursor-pointer accent-teal-700 dark:accent-teal-300"
+        type="range"
+        min={firstYear}
+        max={lastYear}
+        value={lastYear}
+        step="1"
+        aria-label="Choisir l’année avec un curseur"
+      />
+    </div>
+    <div class="mt-1 flex justify-between text-sm text-slate-600 dark:text-slate-300" aria-hidden="true">
+      <span>{firstYear}</span>
+      <span>{lastYear}</span>
+    </div>
+  </div>
   <div id="graphique-v4" aria-live="polite"></div>
 </div>
 
@@ -21,7 +43,8 @@ const years = [...new Set(data.map((d) => d.annee))];
   import * as Plot from "@observablehq/plot";
   import data from "../assets/data/v4-mois.json";
 
-  const selectYear = document.querySelector("#annee-v4") as HTMLSelectElement;
+  const yearInput = document.querySelector("#annee-v4-number") as HTMLInputElement;
+  const yearRange = document.querySelector("#annee-v4-range") as HTMLInputElement;
   const container = document.querySelector("#graphique-v4") as HTMLDivElement;
   const abbreviations = ["Jan", "Fév", "Mar", "Avr", "Mai", "Jui", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
 
@@ -56,12 +79,19 @@ const years = [...new Set(data.map((d) => d.annee))];
     });
   }
 
-  function renderPlot() {
-    const year = Number(selectYear.value);
+  function renderPlot(year: number) {
     const selectedData = data.filter((d) => d.annee === year);
+    yearInput.value = String(year);
+    yearRange.value = String(year);
     container.replaceChildren(graphiqueV4(selectedData, year));
   }
 
-  selectYear.addEventListener("change", renderPlot);
-  renderPlot();
+  yearRange.addEventListener("input", () => renderPlot(Number(yearRange.value)));
+  yearInput.addEventListener("input", () => {
+    const year = Number(yearInput.value);
+    if (year >= Number(yearInput.min) && year <= Number(yearInput.max)) {
+      renderPlot(year);
+    }
+  });
+  renderPlot(Number(yearRange.value));
 </script>
