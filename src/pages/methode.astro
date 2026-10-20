@@ -1,0 +1,78 @@
+---
+import Layout from "../layouts/Layout.astro";
+import dataV1Url from "../assets/data/v1-temperatures.json?url";
+import dataV4Url from "../assets/data/v4-mois.json?url";
+import dataV5Url from "../assets/data/v5-dorans.json?url";
+---
+
+<Layout
+  title="Méthode · Climat en mutation"
+  description="Sources, calculs, limites et données du récit climatique sur le Pays de Montbéliard."
+>
+  <main id="contenu" class="mx-auto max-w-4xl px-5 py-16 sm:py-20">
+    <p class="text-sm font-bold uppercase tracking-wider text-teal-800 dark:text-teal-300">Méthode</p>
+    <h1 class="mt-3 text-4xl font-bold sm:text-5xl">Comment avons-nous construit ce récit ?</h1>
+    <p class="mt-6 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+      Ce projet étudie principalement l’évolution des températures maximales dans le Pays de Montbéliard. La station AERO-MTBL constitue notre point d’observation principal, complété par des séries régionales et une analyse menée à Dorans.
+    </p>
+
+    <div class="mt-12 space-y-12 leading-relaxed text-slate-700 dark:text-slate-300">
+      <section aria-labelledby="sources">
+        <h2 id="sources" class="text-2xl font-bold text-slate-950 dark:text-white">Sources</h2>
+        <p class="mt-4">Les données proviennent des Longues Séries Homogénéisées de Météo-France :</p>
+        <ul class="mt-3 list-disc space-y-2 pl-6">
+          <li><strong>TX</strong> : température maximale moyenne mensuelle, en degrés Celsius ;</li>
+          <li><strong>RR</strong> : cumul mensuel des précipitations, en millimètres ;</li>
+          <li><strong>Q_HOM</strong> : indicateur de qualité des données homogénéisées.</li>
+        </ul>
+        <p class="mt-4">Les comparaisons principales conservent uniquement les observations pour lesquelles Q_HOM = 1. Les contours administratifs de la carte proviennent de data.gouv.fr. Les données sont réutilisées conformément à la Licence Ouverte 2.0.</p>
+      </section>
+
+      <section aria-labelledby="periodes">
+        <h2 id="periodes" class="text-2xl font-bold text-slate-950 dark:text-white">Périodes et calculs</h2>
+        <p class="mt-4">Nous comparons deux périodes climatiques de même durée : 1961–1990, période de référence, et 1991–2020, période récente. Les températures annuelles sont calculées à partir des douze mois complets et pondérées par le nombre de jours de chaque mois.</p>
+        <p class="mt-4">Pour l’analyse saisonnière, l’hiver regroupe décembre, janvier et février ; le printemps mars, avril et mai ; l’été juin, juillet et août ; l’automne septembre, octobre et novembre. Le mois de décembre est rattaché à l’hiver de l’année suivante.</p>
+        <p class="mt-4">Les anomalies correspondent à la différence entre une observation et la moyenne de référence 1961–1990 du même indicateur. Pour V5, les moyennes mobiles sur dix ans rendent la tendance plus lisible malgré la forte variabilité annuelle.</p>
+      </section>
+
+      <section aria-labelledby="visualisations">
+        <h2 id="visualisations" class="text-2xl font-bold text-slate-950 dark:text-white">Rôle des visualisations</h2>
+        <ul class="mt-4 list-disc space-y-2 pl-6">
+          <li>V1 compare les distributions des températures annuelles entre les deux périodes.</li>
+          <li>V2 replace l’évolution d’AERO-MTBL parmi 28 stations régionales.</li>
+          <li>V3 compare le réchauffement des quatre saisons.</li>
+          <li>V4 permet d’examiner les écarts mensuels d’une année choisie.</li>
+          <li>V5 confronte les anomalies de température et de précipitations à Dorans.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="limites">
+        <h2 id="limites" class="text-2xl font-bold text-slate-950 dark:text-white">Limites</h2>
+        <p class="mt-4">Les résultats décrivent les stations étudiées et ne constituent pas une mesure exhaustive du climat de chaque commune. AERO-MTBL se situe près de l’aérodrome et ne mesure pas directement les conditions du centre-ville ni un éventuel îlot de chaleur urbain.</p>
+        <p class="mt-4">Les moyennes mensuelles ne décrivent pas les records quotidiens, la durée des canicules ou le nombre de jours de fortes précipitations. Enfin, une corrélation entre température et précipitations ne suffit pas à démontrer une causalité.</p>
+      </section>
+
+      <section aria-labelledby="donnees">
+        <h2 id="donnees" class="text-2xl font-bold text-slate-950 dark:text-white">Données et notebook</h2>
+        <div class="mt-5 flex flex-wrap gap-3">
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV1Url} download>Télécharger V1</a>
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV4Url} download>Télécharger V4</a>
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV5Url} download>Télécharger V5</a>
+          <a class="rounded-lg bg-teal-700 px-4 py-2 font-semibold text-white hover:bg-teal-800 dark:bg-teal-300 dark:text-slate-950 dark:hover:bg-teal-200" href="https://observablehq.com/@mmi-montbeliard/sae-303-gr-05">Ouvrir le notebook Observable</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="outils">
+        <h2 id="outils" class="text-2xl font-bold text-slate-950 dark:text-white">Outils et vérifications</h2>
+        <p class="mt-4">Les visualisations ont été préparées dans Observable avec Observable Plot, puis intégrées dans un site Astro. Des outils d’intelligence artificielle ont aidé à structurer certains calculs, corriger le code et relire les formulations. Les résultats ont ensuite été contrôlés à partir des données.</p>
+      </section>
+
+      <section aria-labelledby="credits">
+        <h2 id="credits" class="text-2xl font-bold text-slate-950 dark:text-white">Crédits</h2>
+        <p class="mt-4">Projet réalisé par Ruslana Budniak et Mamanthilor Sambe dans le cadre de la SAÉ 303.</p>
+      </section>
+    </div>
+
+    <a class="mt-12 inline-flex font-semibold text-teal-800 underline underline-offset-4 dark:text-teal-300" href="/">← Retour au récit</a>
+  </main>
+</Layout>
