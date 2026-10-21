@@ -1,0 +1,6 @@
+[
+  { "saison": "Hiver", "tx1961_1990": 4.91, "tx1991_2020": 6.11, "evolution": 1.20, "nombreSaisons": 30 },
+  { "saison": "Printemps", "tx1961_1990": 14.01, "tx1991_2020": 15.83, "evolution": 1.82, "nombreSaisons": 30 },
+  { "saison": "Été", "tx1961_1990": 22.88, "tx1991_2020": 24.82, "evolution": 1.93, "nombreSaisons": 30 },
+  { "saison": "Automne", "tx1961_1990": 14.69, "tx1991_2020": 15.32, "evolution": 0.63, "nombreSaisons": 30 }
+]
