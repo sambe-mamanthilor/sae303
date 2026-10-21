@@ -1,0 +1,84 @@
+---
+import * as Plot from "@observablehq/plot";
+import PlotFigure from "./PlotFigure.astro";
+
+// Une station de mesure (données préfiltrées depuis le notebook, cellule « Export V2 »)
+interface Station {
+  nom: string;
+  latitude: number;
+  longitude: number;
+  altitude: number;
+  tx1961_1990: number;
+  tx1991_2020: number;
+  evolution: number;
+}
+
+interface Props {
+  stations: Station[];
+  contours: any; // FeatureCollection GeoJSON des 8 départements de la région
+}
+
+const { stations, contours } = Astro.props;
+
+// Nombre au format français : 1.41 -> « +1,41 »
+const virgule = (valeur: number, signe = true) =>
+  (signe && valeur > 0 ? "+" : "") + valeur.toFixed(2).replace(".", ",");
+
+// Les deux stations du récit, mises en évidence sur la carte
+const stationsCles = ["AERO-MTBL", "DORANS"];
+
+// Même logique que graphiqueV2 dans le notebook : la fonction reçoit ses données en paramètre
+function graphiqueV2(donnees: Station[], fond: any) {
+  const min = Math.min(...donnees.map((d) => d.evolution));
+  const max = Math.max(...donnees.map((d) => d.evolution));
+  const aero = donnees.find((d) => d.nom === "AERO-MTBL");
+
+  return {
+    width: 640,
+    projection: { type: "mercator", domain: fond, inset: 20 },
+    title: `Évolution de la température maximale moyenne dans ${donnees.length} longues séries de Bourgogne-Franche-Comté`,
+    subtitle: `Entre 1961–1990 et 1991–2020, l’évolution va de ${virgule(min)} à ${virgule(max)} °C selon les stations. AERO-MTBL : ${virgule(aero!.evolution)} °C.`,
+    caption:
+      "Chaque point est une station de mesure, pas une valeur pour tout le territoire. Écart entre les moyennes de TX annuelle 1991–2020 et 1961–1990. Sources : Météo-France, Longues Séries Homogénéisées ; contours : Etalab, d’après IGN Admin Express.",
+    ariaLabel: `Carte de points de la Bourgogne-Franche-Comté : ${donnees.length} stations, toutes réchauffées entre ${virgule(min)} et ${virgule(max)} °C.`,
+    style: { background: "transparent", color: "currentColor" },
+    // Palette séquentielle : toutes les évolutions sont positives, donc pas de palette divergente.
+    // Elle ne commence pas presque blanc pour ne pas suggérer une absence de réchauffement.
+    // 4 classes de 0,1 °C (au lieu d'un dégradé continu) : la légende se génère au build sans canvas,
+    // et le lecteur associe plus facilement une couleur à un intervalle.
+    color: {
+      type: "quantize",
+      domain: [1.2, 1.6],
+      n: 4,
+      range: ["#fdbe85", "#f3793a", "#d4361b", "#a50f15"],
+      legend: true,
+      label: "Évolution (°C)",
+      tickFormat: (d: number) => virgule(d).replace(/0$/, ""),
+    },
+    marks: [
+      // Fond de carte : uniquement un repère, il ne porte aucune donnée
+      Plot.geo(fond, { fill: "currentColor", fillOpacity: 0.06, stroke: "currentColor", strokeOpacity: 0.35 }),
+      Plot.dot(donnees, {
+        x: "longitude",
+        y: "latitude",
+        r: 6,
+        fill: "evolution",
+        stroke: (d: Station) => (stationsCles.includes(d.nom) ? "currentColor" : "#666"),
+        strokeWidth: (d: Station) => (stationsCles.includes(d.nom) ? 2 : 0.6),
+        // Infobulle native au survol (le graphique est généré au build, sans JavaScript)
+        title: (d: Station) =>
+          `${d.nom}\nAltitude : ${d.altitude} m\nTX 1961–1990 : ${virgule(d.tx1961_1990, false)} °C\nTX 1991–2020 : ${virgule(d.tx1991_2020, false)} °C\nÉvolution : ${virgule(d.evolution)} °C`,
+      }),
+      // DORANS au-dessus de son point, AERO-MTBL en dessous (les deux stations sont à 12 km)
+      Plot.text(donnees.filter((d) => d.nom === "DORANS"), {
+        x: "longitude", y: "latitude", text: "nom", dy: -13, fontWeight: "bold", fill: "currentColor",
+      }),
+      Plot.text(donnees.filter((d) => d.nom === "AERO-MTBL"), {
+        x: "longitude", y: "latitude", text: "nom", dy: 15, fontWeight: "bold", fill: "currentColor",
+      }),
+    ],
+  };
+}
+---
+
+<PlotFigure options={graphiqueV2(stations, contours)} />
