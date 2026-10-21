@@ -14,3 +14,8 @@ html.dark {
 html {
   scroll-padding-top: 5rem;
 }
+
+/* Infobulles d'Observable Plot (V4) en mode sombre : fond foncé sous un texte clair, sinon le texte blanc était illisible sur la bulle blanche */
+.dark .plot-figure svg {
+  --plot-background: #0f172a !important;
+}

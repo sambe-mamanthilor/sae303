@@ -50,7 +50,7 @@ const lastYear = Math.max(...years);
   const yearRange = document.querySelector("#annee-v4-range") as HTMLInputElement;
   const container = document.querySelector("#graphique-v4") as HTMLDivElement;
   const summary = document.querySelector("#resume-v4") as HTMLParagraphElement;
-  const abbreviations = ["Jan", "Fév", "Mar", "Avr", "Mai", "Jui", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
+  const abbreviations = ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
 
   function graphiqueV4(donnees: typeof data, annee: number) {
     return Plot.plot({
