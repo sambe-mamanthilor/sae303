@@ -3,6 +3,9 @@ import Layout from "../layouts/Layout.astro";
 import dataV1Url from "../assets/data/v1-temperatures.json?url";
 import dataV4Url from "../assets/data/v4-mois.json?url";
 import dataV5Url from "../assets/data/v5-dorans.json?url";
+import dataV2StationsUrl from "../assets/data/v2-stations.json?url";
+import dataV2ContoursUrl from "../assets/data/v2-contours-bfc.json?url";
+import dataV3Url from "../assets/data/v3-saisons.json?url";
 ---
 
 <Layout
@@ -26,6 +29,10 @@ import dataV5Url from "../assets/data/v5-dorans.json?url";
           <li><strong>Q_HOM</strong> : indicateur de qualité des données homogénéisées.</li>
         </ul>
         <p class="mt-4">Les comparaisons principales conservent uniquement les observations pour lesquelles Q_HOM = 1. Les contours administratifs de la carte proviennent de data.gouv.fr. Les données sont réutilisées conformément à la Licence Ouverte 2.0.</p>
+        <ul class="mt-4 list-disc space-y-2 pl-6">
+          <li>Températures et précipitations : <a class="font-semibold text-teal-800 underline underline-offset-4 dark:text-teal-300" href="https://www.data.gouv.fr/datasets/donnees-changement-climatique-lsh-longues-series-homogeneisees" target="_blank" rel="noopener noreferrer">Météo-France, Longues Séries Homogénéisées (LSH)</a>, séries mensuelles TX et RR, consultées en octobre 2026.</li>
+          <li>Contours des départements : <a class="font-semibold text-teal-800 underline underline-offset-4 dark:text-teal-300" href="https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/latest/geojson/departements-1000m.geojson" target="_blank" rel="noopener noreferrer">Etalab, contours administratifs simplifiés (departements-1000m)</a>, d’après IGN Admin Express, Licence Ouverte 2.0, consultés en octobre 2026.</li>
+        </ul>
       </section>
 
       <section aria-labelledby="periodes">
@@ -46,6 +53,16 @@ import dataV5Url from "../assets/data/v5-dorans.json?url";
         </ul>
       </section>
 
+      <section aria-labelledby="export">
+        <h2 id="export" class="text-2xl font-bold text-slate-950 dark:text-white">Comment les graphiques arrivent dans la page</h2>
+        <p class="mt-4">Pour chaque visualisation, la question qui tranche est : <strong>est-ce que le graphique doit bouger chez le lecteur ?</strong></p>
+        <ul class="mt-4 list-disc space-y-2 pl-6">
+          <li><strong>V1, V2, V3 et V5 : route A (au build).</strong> Ces graphiques répondent à une question fixe et ne changent pas selon le lecteur. Ils sont dessinés une fois, lors de la construction du site, et livrés en image vectorielle (SVG) : la page reste légère et lisible même sans JavaScript.</li>
+          <li><strong>V4 : route B (chez le lecteur).</strong> Le lecteur choisit une année : le graphique doit donc se redessiner dans le navigateur, à partir d’un fichier de données mensuelles préfiltré.</li>
+        </ul>
+        <p class="mt-4">Dans le notebook, la carte V2 utilise un dégradé de couleur continu. Sur le site, elle utilise quatre classes de 0,1 °C : la légende en dégradé ne peut pas être générée au moment du build, et des classes permettent d’associer plus facilement une couleur à un intervalle. Les valeurs exactes restent disponibles au survol de chaque station et dans les fichiers téléchargeables.</p>
+      </section>
+
       <section aria-labelledby="limites">
         <h2 id="limites" class="text-2xl font-bold text-slate-950 dark:text-white">Limites</h2>
         <p class="mt-4">Les résultats décrivent les stations étudiées et ne constituent pas une mesure exhaustive du climat de chaque commune. AERO-MTBL se situe près de l’aérodrome et ne mesure pas directement les conditions du centre-ville ni un éventuel îlot de chaleur urbain.</p>
@@ -58,6 +75,9 @@ import dataV5Url from "../assets/data/v5-dorans.json?url";
           <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV1Url} download>Télécharger V1</a>
           <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV4Url} download>Télécharger V4</a>
           <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV5Url} download>Télécharger V5</a>
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV2StationsUrl} download="v2-stations.json">Télécharger V2 · stations</a>
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV2ContoursUrl} download="v2-contours-bfc.json">Télécharger V2 · contours</a>
+          <a class="rounded-lg border border-slate-300 px-4 py-2 font-semibold hover:border-teal-700 hover:text-teal-800 dark:border-slate-600 dark:hover:border-teal-300 dark:hover:text-teal-300" href={dataV3Url} download="v3-saisons.json">Télécharger V3</a>
           <a class="rounded-lg bg-teal-700 px-4 py-2 font-semibold text-white hover:bg-teal-800 dark:bg-teal-300 dark:text-slate-950 dark:hover:bg-teal-200" href="https://observablehq.com/d/572074b09f3451a9" target="_blank" rel="noopener noreferrer">Ouvrir le notebook Observable</a>
         </div>
       </section>
