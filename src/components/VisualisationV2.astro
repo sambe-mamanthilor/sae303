@@ -81,4 +81,65 @@ function graphiqueV2(donnees: Station[], fond: any) {
 }
 ---
 
-<PlotFigure options={graphiqueV2(stations, contours)} />
+<div class="relative" data-v2-map>
+  <PlotFigure options={graphiqueV2(stations, contours)} />
+  <output
+    class="pointer-events-none absolute z-10 hidden max-w-64 whitespace-pre-line rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm leading-relaxed text-slate-950 shadow-xl dark:border-slate-300 dark:bg-slate-100 dark:text-slate-950"
+    data-v2-tooltip
+    aria-live="polite"
+  ></output>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-v2-map]").forEach((carte) => {
+    const infobulle = carte.querySelector<HTMLOutputElement>("[data-v2-tooltip]");
+    if (!infobulle) return;
+
+    function afficher(point: SVGCircleElement, x: number, y: number) {
+      const texte = point.getAttribute("aria-label");
+      if (!texte) return;
+
+      infobulle.textContent = texte;
+      infobulle.style.left = `${x}px`;
+      infobulle.style.top = `${y}px`;
+      infobulle.style.transform = "translate(-50%, calc(-100% - 12px))";
+      infobulle.classList.remove("hidden");
+    }
+
+    function masquer() {
+      infobulle.classList.add("hidden");
+    }
+
+    carte.querySelectorAll<SVGCircleElement>('svg [aria-label="dot"] circle').forEach((point) => {
+      const titreNatif = point.querySelector("title");
+      const texte = titreNatif?.textContent?.trim();
+      if (!texte) return;
+
+      point.setAttribute("aria-label", texte);
+      point.setAttribute("tabindex", "0");
+      titreNatif.remove();
+
+      point.addEventListener("pointerenter", (event) => {
+        const cadre = carte.getBoundingClientRect();
+        afficher(point, event.clientX - cadre.left, event.clientY - cadre.top);
+      });
+
+      point.addEventListener("pointermove", (event) => {
+        const cadre = carte.getBoundingClientRect();
+        afficher(point, event.clientX - cadre.left, event.clientY - cadre.top);
+      });
+
+      point.addEventListener("pointerleave", masquer);
+      point.addEventListener("blur", masquer);
+      point.addEventListener("focus", () => {
+        const cadre = carte.getBoundingClientRect();
+        const position = point.getBoundingClientRect();
+        afficher(
+          point,
+          position.left - cadre.left + position.width / 2,
+          position.top - cadre.top,
+        );
+      });
+    });
+  });
+</script>
