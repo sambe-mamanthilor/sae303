@@ -9,3 +9,8 @@ html {
 html.dark {
   color-scheme: dark;
 }
+
+/* Le menu reste visible au défilement : les ancres (#contexte…) s’arrêtent sous le menu au lieu de passer derrière */
+html {
+  scroll-padding-top: 5rem;
+}
