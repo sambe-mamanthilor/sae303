@@ -1,0 +1,70 @@
+---
+import * as Plot from "@observablehq/plot";
+import PlotFigure from "./PlotFigure.astro";
+
+// Une saison à AERO-MTBL (données préfiltrées depuis le notebook, tableau donneesV3)
+interface Saison {
+  saison: string;
+  tx1961_1990: number;
+  tx1991_2020: number;
+  evolution: number;
+  nombreSaisons: number; // dénominateur : 30 saisons complètes par période
+}
+
+interface Props {
+  data: Saison[];
+}
+
+const { data } = Astro.props;
+
+// Nombre au format français : 1.93 -> « +1,9 »
+const degres = (valeur: number, decimales = 1) =>
+  (valeur > 0 ? "+" : "") + valeur.toFixed(decimales).replace(".", ",");
+
+// Même logique que le graphique V3 du notebook : la fonction reçoit ses données en paramètre
+function graphiqueV3(donnees: Saison[]) {
+  const triees = [...donnees].sort((a, b) => b.evolution - a.evolution);
+  const plusForte = triees[0];
+  const plusFaible = triees[triees.length - 1];
+
+  return {
+    width: 640,
+    height: 300,
+    marginLeft: 90,
+    marginRight: 70,
+    title: "Évolution de la température maximale moyenne par saison à AERO-MTBL",
+    // Sous-titre calculé à partir des données : aucun chiffre écrit à la main
+    subtitle: `Toutes les saisons se sont réchauffées, mais pas de la même façon : de ${degres(plusFaible.evolution)} °C (${plusFaible.saison.toLowerCase()}) à ${degres(plusForte.evolution)} °C (${plusForte.saison.toLowerCase()}).`,
+    caption:
+      "Écart entre les moyennes 1991–2020 et 1961–1990, 30 saisons complètes par période. Source : Météo-France, Longues Séries Homogénéisées, station AERO-MTBL.",
+    ariaLabel: `Barres horizontales : évolution de la température maximale moyenne par saison entre 1961–1990 et 1991–2020, de ${degres(plusFaible.evolution)} °C en ${plusFaible.saison.toLowerCase()} à ${degres(plusForte.evolution)} °C en ${plusForte.saison.toLowerCase()}.`,
+    style: { background: "transparent", color: "currentColor" },
+    x: { label: "Évolution (°C)", grid: true, domain: [0, 2.2] },
+    // Ordre du calendrier : la position verticale distingue les saisons
+    y: { label: null, domain: ["Hiver", "Printemps", "Été", "Automne"] },
+    marks: [
+      // La longueur de la barre porte la valeur : même rouge « chaud » que V1 et V4
+      Plot.barX(donnees, {
+        x: "evolution",
+        y: "saison",
+        fill: "#d95f4f",
+        title: (d: Saison) =>
+          `${d.saison}\n1961–1990 : ${d.tx1961_1990.toFixed(2).replace(".", ",")} °C\n1991–2020 : ${d.tx1991_2020.toFixed(2).replace(".", ",")} °C\nÉvolution : ${degres(d.evolution, 2)} °C`,
+      }),
+      // Valeur écrite au bout de chaque barre : pas besoin de lire l'axe
+      Plot.text(donnees, {
+        x: "evolution",
+        y: "saison",
+        text: (d: Saison) => `${degres(d.evolution)} °C`,
+        dx: 6,
+        textAnchor: "start",
+        fill: "currentColor",
+      }),
+      // Origine des barres : 0 = aucun changement (l'axe n'est pas tronqué)
+      Plot.ruleX([0], { stroke: "currentColor" }),
+    ],
+  };
+}
+---
+
+<PlotFigure options={graphiqueV3(data)} />
