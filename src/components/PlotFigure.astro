@@ -13,8 +13,30 @@ const plot = Plot.plot({ ...options, document: new JSDOM("").window.document });
     margin-inline: auto;
   }
 
+  :global(.plot-figure figure > h2) {
+    margin: 0 0 0.4rem;
+    line-height: 1.3;
+  }
+
+  :global(.plot-figure figure > h3) {
+    margin: 0 0 1.35rem;
+    line-height: 1.5;
+    color: color-mix(in srgb, currentColor 88%, transparent);
+  }
+
   :global(.plot-figure svg) {
+    display: block;
     max-width: 100%;
     height: auto;
+  }
+
+  :global(.plot-figure figure > figcaption) {
+    margin-top: 1.25rem;
+    line-height: 1.6;
+  }
+
+  :global(.dark .plot-figure figure > h3),
+  :global(.dark .plot-figure figure > figcaption) {
+    color: #e2e8f0;
   }
 </style>
